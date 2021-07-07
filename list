@@ -5,9 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: cf 21来自@tggonghai公海频道, server: 104.19.181.164, port: 443, type: vmess, uuid: 4a14ad7e-edb3-4185-ab4b-951f50aed9bb, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /tggonghai, ws-headers: {Host: g21.newword.site}}
-  - {name: cf 22来自@tggonghai公海频道, server: 104.19.181.164, port: 443, type: vmess, uuid: 4a14ad7e-edb3-4185-ab4b-951f50aed9bb, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /tggonghai, ws-headers: {Host: g22.newword.site}}
-  - {name: cf 23来自@tggonghai公海频道, server: 104.19.181.164, port: 443, type: vmess, uuid: 4a14ad7e-edb3-4185-ab4b-951f50aed9bb, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /tggonghai, ws-headers: {Host: g23.newword.site}}
   - {name: 🇰🇷 韩国-1-北京中转, server: 52.81.94.63, port: 12203, type: vmess, uuid: 57b9f56f-8f51-3af3-87de-87b6e46b2e17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.94.63}}
   - {name: 🇭🇰 香港-1-北京中转, server: 52.81.94.63, port: 12202, type: vmess, uuid: 57b9f56f-8f51-3af3-87de-87b6e46b2e17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.94.63}}
   - {name: 🇺🇸 美国-1-北京中转, server: 52.81.94.63, port: 12204, type: vmess, uuid: 57b9f56f-8f51-3af3-87de-87b6e46b2e17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.94.63}}
