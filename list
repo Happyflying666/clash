@@ -5,123 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: happyflying 1, server: 173.242.117.35, port: 10001, type: vmess, uuid: e8e88e59-2453-4778-9e94-aa7669d8b2af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: happyflying 2, server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: happyflying 3, server: 104.148.30.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: happyflying 4, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: happyflying 5, server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: happyflying 6, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: happyflying 7, server: 194.37.98.219, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: happyflying 9, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: happyflying a, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: happyflying a 2, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: happyflying b, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: happyflying b 2, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: happyflying b 3, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: happyflying b 4, server: 82.102.26.117, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: happyflying b 5, server: 82.102.26.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: happyflying b 6, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: happyflying b 7, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: happyflying b 8, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: happyflying b 9, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: happyflying b 10, server: 104.148.30.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: happyflying b 11, server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: happyflying b 12, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: happyflying b 13, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: happyflying b 14, server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: happyflying a, server: sg-2.okex-tradebot.xyz, port: 30001, type: vmess, uuid: 2ba0dc04-b36b-427d-8117-f3ec56557583, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sg-2.okex-tradebot.xyz}}
+  - {name: happyflying a 2, server: 13.250.29.151, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: happyflying a 3, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 2ba0dc04-b36b-427d-8117-f3ec56557583, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: happyflying a 4, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 2ba0dc04-b36b-427d-8117-f3ec56557583, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: happyflying a 5, server: 18.162.50.178, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: happyflying a 6, server: 18.167.90.100, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: happyflying a 7, server: ngzyd-1.okex-tradebot.xyz, port: 30010, type: vmess, uuid: 2ba0dc04-b36b-427d-8117-f3ec56557583, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: happyflying a 8, server: 104.148.30.85, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: happyflying a 9, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 2ba0dc04-b36b-427d-8117-f3ec56557583, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: happyflying a 10, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: happyflying a 11, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: happyflying a 12, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: happyflying, server: 66.115.182.101, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: happyflying 2, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: happyflying 3, server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
+  - {name: happyflying 4, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: happyflying 5, server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: happyflying 6, server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: happyflying 7, server: 82.102.26.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: happyflying 8, server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: happyflying 9, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: happyflying 10, server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: happyflying 11, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
   - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
+  - {name: happyflying 12, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happyflying 1
+      - happyflying a
+      - happyflying a 2
+      - happyflying a 3
+      - happyflying a 4
+      - happyflying a 5
+      - happyflying a 6
+      - happyflying a 7
+      - happyflying a 8
+      - happyflying a 9
+      - happyflying a 10
+      - happyflying a 11
+      - happyflying a 12
+      - happyflying
       - happyflying 2
       - happyflying 3
       - happyflying 4
       - happyflying 5
       - happyflying 6
       - happyflying 7
+      - happyflying 8
       - happyflying 9
-      - happyflying a
-      - happyflying a 2
-      - happyflying b
-      - happyflying b 2
-      - happyflying b 3
-      - happyflying b 4
-      - happyflying b 5
-      - happyflying b 6
-      - happyflying b 7
-      - happyflying b 8
-      - happyflying b 9
-      - happyflying b 10
-      - happyflying b 11
-      - happyflying b 12
-      - happyflying b 13
-      - happyflying b 14
+      - happyflying 10
+      - happyflying 11
       - happyflying epic
+      - happyflying 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - happyflying 1
+      - happyflying a
+      - happyflying a 2
+      - happyflying a 3
+      - happyflying a 4
+      - happyflying a 5
+      - happyflying a 6
+      - happyflying a 7
+      - happyflying a 8
+      - happyflying a 9
+      - happyflying a 10
+      - happyflying a 11
+      - happyflying a 12
+      - happyflying
       - happyflying 2
       - happyflying 3
       - happyflying 4
       - happyflying 5
       - happyflying 6
       - happyflying 7
+      - happyflying 8
       - happyflying 9
-      - happyflying a
-      - happyflying a 2
-      - happyflying b
-      - happyflying b 2
-      - happyflying b 3
-      - happyflying b 4
-      - happyflying b 5
-      - happyflying b 6
-      - happyflying b 7
-      - happyflying b 8
-      - happyflying b 9
-      - happyflying b 10
-      - happyflying b 11
-      - happyflying b 12
-      - happyflying b 13
-      - happyflying b 14
+      - happyflying 10
+      - happyflying 11
       - happyflying epic
+      - happyflying 12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happyflying 1
+      - happyflying a
+      - happyflying a 2
+      - happyflying a 3
+      - happyflying a 4
+      - happyflying a 5
+      - happyflying a 6
+      - happyflying a 7
+      - happyflying a 8
+      - happyflying a 9
+      - happyflying a 10
+      - happyflying a 11
+      - happyflying a 12
+      - happyflying
       - happyflying 2
       - happyflying 3
       - happyflying 4
       - happyflying 5
       - happyflying 6
       - happyflying 7
+      - happyflying 8
       - happyflying 9
-      - happyflying a
-      - happyflying a 2
-      - happyflying b
-      - happyflying b 2
-      - happyflying b 3
-      - happyflying b 4
-      - happyflying b 5
-      - happyflying b 6
-      - happyflying b 7
-      - happyflying b 8
-      - happyflying b 9
-      - happyflying b 10
-      - happyflying b 11
-      - happyflying b 12
-      - happyflying b 13
-      - happyflying b 14
+      - happyflying 10
+      - happyflying 11
       - happyflying epic
+      - happyflying 12
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -132,92 +132,92 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - happyflying 1
+      - happyflying a
+      - happyflying a 2
+      - happyflying a 3
+      - happyflying a 4
+      - happyflying a 5
+      - happyflying a 6
+      - happyflying a 7
+      - happyflying a 8
+      - happyflying a 9
+      - happyflying a 10
+      - happyflying a 11
+      - happyflying a 12
+      - happyflying
       - happyflying 2
       - happyflying 3
       - happyflying 4
       - happyflying 5
       - happyflying 6
       - happyflying 7
+      - happyflying 8
       - happyflying 9
-      - happyflying a
-      - happyflying a 2
-      - happyflying b
-      - happyflying b 2
-      - happyflying b 3
-      - happyflying b 4
-      - happyflying b 5
-      - happyflying b 6
-      - happyflying b 7
-      - happyflying b 8
-      - happyflying b 9
-      - happyflying b 10
-      - happyflying b 11
-      - happyflying b 12
-      - happyflying b 13
-      - happyflying b 14
+      - happyflying 10
+      - happyflying 11
       - happyflying epic
+      - happyflying 12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - happyflying 1
+      - happyflying a
+      - happyflying a 2
+      - happyflying a 3
+      - happyflying a 4
+      - happyflying a 5
+      - happyflying a 6
+      - happyflying a 7
+      - happyflying a 8
+      - happyflying a 9
+      - happyflying a 10
+      - happyflying a 11
+      - happyflying a 12
+      - happyflying
       - happyflying 2
       - happyflying 3
       - happyflying 4
       - happyflying 5
       - happyflying 6
       - happyflying 7
+      - happyflying 8
       - happyflying 9
-      - happyflying a
-      - happyflying a 2
-      - happyflying b
-      - happyflying b 2
-      - happyflying b 3
-      - happyflying b 4
-      - happyflying b 5
-      - happyflying b 6
-      - happyflying b 7
-      - happyflying b 8
-      - happyflying b 9
-      - happyflying b 10
-      - happyflying b 11
-      - happyflying b 12
-      - happyflying b 13
-      - happyflying b 14
+      - happyflying 10
+      - happyflying 11
       - happyflying epic
+      - happyflying 12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happyflying 1
+      - happyflying a
+      - happyflying a 2
+      - happyflying a 3
+      - happyflying a 4
+      - happyflying a 5
+      - happyflying a 6
+      - happyflying a 7
+      - happyflying a 8
+      - happyflying a 9
+      - happyflying a 10
+      - happyflying a 11
+      - happyflying a 12
+      - happyflying
       - happyflying 2
       - happyflying 3
       - happyflying 4
       - happyflying 5
       - happyflying 6
       - happyflying 7
+      - happyflying 8
       - happyflying 9
-      - happyflying a
-      - happyflying a 2
-      - happyflying b
-      - happyflying b 2
-      - happyflying b 3
-      - happyflying b 4
-      - happyflying b 5
-      - happyflying b 6
-      - happyflying b 7
-      - happyflying b 8
-      - happyflying b 9
-      - happyflying b 10
-      - happyflying b 11
-      - happyflying b 12
-      - happyflying b 13
-      - happyflying b 14
+      - happyflying 10
+      - happyflying 11
       - happyflying epic
+      - happyflying 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -233,31 +233,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happyflying 1
+      - happyflying a
+      - happyflying a 2
+      - happyflying a 3
+      - happyflying a 4
+      - happyflying a 5
+      - happyflying a 6
+      - happyflying a 7
+      - happyflying a 8
+      - happyflying a 9
+      - happyflying a 10
+      - happyflying a 11
+      - happyflying a 12
+      - happyflying
       - happyflying 2
       - happyflying 3
       - happyflying 4
       - happyflying 5
       - happyflying 6
       - happyflying 7
+      - happyflying 8
       - happyflying 9
-      - happyflying a
-      - happyflying a 2
-      - happyflying b
-      - happyflying b 2
-      - happyflying b 3
-      - happyflying b 4
-      - happyflying b 5
-      - happyflying b 6
-      - happyflying b 7
-      - happyflying b 8
-      - happyflying b 9
-      - happyflying b 10
-      - happyflying b 11
-      - happyflying b 12
-      - happyflying b 13
-      - happyflying b 14
+      - happyflying 10
+      - happyflying 11
       - happyflying epic
+      - happyflying 12
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
