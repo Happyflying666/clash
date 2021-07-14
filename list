@@ -5,191 +5,94 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |37.60Mb, server: hk2.direct.starlink.st, port: 52000, type: vmess, uuid: 97aef1d4-3348-4a53-8a63-4a66d6c5c1ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |11.68Mb, server: cn1.relay.starlink.st, port: 52000, type: vmess, uuid: 97aef1d4-3348-4a53-8a63-4a66d6c5c1ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |41.84Mb, server: cn1.relay.starlink.st, port: 52001, type: vmess, uuid: 97aef1d4-3348-4a53-8a63-4a66d6c5c1ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb, server: 13.250.29.151, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943, server: hk-t-1.xj.qjnodeip.xyz, port: 80, type: vmess, uuid: ea17f807-c50d-4444-bdd5-e827c91f9cb8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: Relay_ |22.68Mb, server: cn2.relay.starlink.st, port: 52001, type: vmess, uuid: 97aef1d4-3348-4a53-8a63-4a66d6c5c1ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Pool_ |18.54Mb, server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇺 馃嚪馃嚭 RU_4807, server: ru1.direct.starlink.st, port: 52000, type: vmess, uuid: 97aef1d4-3348-4a53-8a63-4a66d6c5c1ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb, server: tw1.direct.starlink.st, port: 52000, type: vmess, uuid: 97aef1d4-3348-4a53-8a63-4a66d6c5c1ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |42.90Mb, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: Pool_ |23.20Mb, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: Pool_ |26.11Mb, server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_ |14.06Mb, server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ |11.84Mb, server: 66.115.182.101, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: Relay_ |25.18Mb, server: cn2.relay.starlink.st, port: 52006, type: vmess, uuid: 97aef1d4-3348-4a53-8a63-4a66d6c5c1ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |22.00Mb, server: 18.162.50.178, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |11.68Mb, server: 66.115.182.101, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: Pool_ |18.54Mb, server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
+  - {name: 🇭🇰 香港稳定复活线路#vip1, server: fh.opvpn.cn, port: 443, type: vmess, uuid: 9d98ebff-6ef8-42a5-bef5-40d3ffb48475, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: fh.opvpn.cn}}
+  - {name: 🇭🇰 YouTube-阿伟科技03-HK-7.14, server: cu.cheapv2.xyz, port: 23324, type: vmess, uuid: b4a690c5-787e-3b1f-a57e-0708deca9ac7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}}
+  - {name: 🇭🇰 YouTube-阿伟科技09-HK-7.14, server: t1.gz.yd.fastcloud.club, port: 10108, type: vmess, uuid: ca91e621-c4ae-4230-b2ab-bbe2d5436416, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: t1.gz.yd.fastcloud.club}}
+  - {name: 🇭🇰 YouTube-阿伟科技01-HK-7.14, server: shc.china.aiv2.top, port: 27213, type: vmess, uuid: 5a29701a-c059-4f39-bdde-53f8566668f9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |37.60Mb
-      - Relay_ |11.68Mb
-      - Relay_ |41.84Mb
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943
-      - Relay_ |22.68Mb
-      - 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb
-      - Pool_ |18.54Mb
-      - 🇷🇺 馃嚪馃嚭 RU_4807
-      - 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb
-      - Pool_ |42.90Mb
-      - 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb
       - Pool_ |23.20Mb
-      - Pool_ |26.11Mb
-      - Pool_ |14.06Mb
-      - Pool_ |11.84Mb
-      - Relay_ |25.18Mb
-      - Relay_ |22.00Mb
-      - Pool_ |11.68Mb
+      - Pool_ |18.54Mb
       - happyflying epic
+      - 🇭🇰 香港稳定复活线路#vip1
+      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |37.60Mb
-      - Relay_ |11.68Mb
-      - Relay_ |41.84Mb
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943
-      - Relay_ |22.68Mb
-      - 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb
-      - Pool_ |18.54Mb
-      - 🇷🇺 馃嚪馃嚭 RU_4807
-      - 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb
-      - Pool_ |42.90Mb
-      - 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb
       - Pool_ |23.20Mb
-      - Pool_ |26.11Mb
-      - Pool_ |14.06Mb
-      - Pool_ |11.84Mb
-      - Relay_ |25.18Mb
-      - Relay_ |22.00Mb
-      - Pool_ |11.68Mb
+      - Pool_ |18.54Mb
       - happyflying epic
+      - 🇭🇰 香港稳定复活线路#vip1
+      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |37.60Mb
-      - Relay_ |11.68Mb
-      - Relay_ |41.84Mb
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943
-      - Relay_ |22.68Mb
-      - 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb
-      - Pool_ |18.54Mb
-      - 🇷🇺 馃嚪馃嚭 RU_4807
-      - 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb
-      - Pool_ |42.90Mb
-      - 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb
       - Pool_ |23.20Mb
-      - Pool_ |26.11Mb
-      - Pool_ |14.06Mb
-      - Pool_ |11.84Mb
-      - Relay_ |25.18Mb
-      - Relay_ |22.00Mb
-      - Pool_ |11.68Mb
+      - Pool_ |18.54Mb
       - happyflying epic
+      - 🇭🇰 香港稳定复活线路#vip1
+      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港稳定复活线路#vip1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |37.60Mb
-      - Relay_ |11.68Mb
-      - Relay_ |41.84Mb
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943
-      - Relay_ |22.68Mb
-      - 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb
-      - Pool_ |18.54Mb
-      - 🇷🇺 馃嚪馃嚭 RU_4807
-      - 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb
-      - Pool_ |42.90Mb
-      - 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb
       - Pool_ |23.20Mb
-      - Pool_ |26.11Mb
-      - Pool_ |14.06Mb
-      - Pool_ |11.84Mb
-      - Relay_ |25.18Mb
-      - Relay_ |22.00Mb
-      - Pool_ |11.68Mb
+      - Pool_ |18.54Mb
       - happyflying epic
+      - 🇭🇰 香港稳定复活线路#vip1
+      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |37.60Mb
-      - Relay_ |11.68Mb
-      - Relay_ |41.84Mb
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943
-      - Relay_ |22.68Mb
-      - 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb
-      - Pool_ |18.54Mb
-      - 🇷🇺 馃嚪馃嚭 RU_4807
-      - 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb
-      - Pool_ |42.90Mb
-      - 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb
       - Pool_ |23.20Mb
-      - Pool_ |26.11Mb
-      - Pool_ |14.06Mb
-      - Pool_ |11.84Mb
-      - Relay_ |25.18Mb
-      - Relay_ |22.00Mb
-      - Pool_ |11.68Mb
+      - Pool_ |18.54Mb
       - happyflying epic
+      - 🇭🇰 香港稳定复活线路#vip1
+      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |37.60Mb
-      - Relay_ |11.68Mb
-      - Relay_ |41.84Mb
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943
-      - Relay_ |22.68Mb
-      - 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb
-      - Pool_ |18.54Mb
-      - 🇷🇺 馃嚪馃嚭 RU_4807
-      - 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb
-      - Pool_ |42.90Mb
-      - 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb
       - Pool_ |23.20Mb
-      - Pool_ |26.11Mb
-      - Pool_ |14.06Mb
-      - Pool_ |11.84Mb
-      - Relay_ |25.18Mb
-      - Relay_ |22.00Mb
-      - Pool_ |11.68Mb
+      - Pool_ |18.54Mb
       - happyflying epic
+      - 🇭🇰 香港稳定复活线路#vip1
+      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,27 +108,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |37.60Mb
-      - Relay_ |11.68Mb
-      - Relay_ |41.84Mb
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚭馃嚫US_1826 | 7.35Mb
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_418 | 7.59Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_943
-      - Relay_ |22.68Mb
-      - 🇭🇰 Pool_馃嚟馃嚢HK | 3.71Mb
-      - Pool_ |18.54Mb
-      - 🇷🇺 馃嚪馃嚭 RU_4807
-      - 🇨🇳 Relay_馃嚬馃嚰TW | 3.00Mb
-      - Pool_ |42.90Mb
-      - 🇺🇸 馃嚭馃嚫 US_30 |117.92Mb
       - Pool_ |23.20Mb
-      - Pool_ |26.11Mb
-      - Pool_ |14.06Mb
-      - Pool_ |11.84Mb
-      - Relay_ |25.18Mb
-      - Relay_ |22.00Mb
-      - Pool_ |11.68Mb
+      - Pool_ |18.54Mb
       - happyflying epic
+      - 🇭🇰 香港稳定复活线路#vip1
+      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
+      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
