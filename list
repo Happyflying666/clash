@@ -5,94 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Pool_ |23.20Mb, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: Pool_ |18.54Mb, server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 馃嚭馃嚫 US_2162, server: 143.244.60.167, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 馃弫 ZZ_2662, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 馃嚭馃嚫 US_2245, server: 143.244.60.167, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 馃嚚馃嚦CN_1474, server: 42.236.94.1, port: 80, type: vmess, uuid: dd390688-1fe8-42c2-a951-33ab9c773f49, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb, server: 84.17.41.73, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb, server: 212.102.44.98, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 馃弫ZZ_7147 |91.20Mb, server: 138.199.40.169, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 馃弫ZZ_7100 |148.75Mb, server: 138.199.40.169, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 馃弫ZZ_7171 |113.05Mb, server: 138.199.40.172, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb, server: 45.87.214.253, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb, server: 104.244.210.139, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
-  - {name: 🇭🇰 香港稳定复活线路#vip1, server: fh.opvpn.cn, port: 443, type: vmess, uuid: 9d98ebff-6ef8-42a5-bef5-40d3ffb48475, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: fh.opvpn.cn}}
-  - {name: 🇭🇰 YouTube-阿伟科技03-HK-7.14, server: cu.cheapv2.xyz, port: 23324, type: vmess, uuid: b4a690c5-787e-3b1f-a57e-0708deca9ac7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}}
-  - {name: 🇭🇰 YouTube-阿伟科技09-HK-7.14, server: t1.gz.yd.fastcloud.club, port: 10108, type: vmess, uuid: ca91e621-c4ae-4230-b2ab-bbe2d5436416, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: t1.gz.yd.fastcloud.club}}
-  - {name: 🇭🇰 YouTube-阿伟科技01-HK-7.14, server: shc.china.aiv2.top, port: 27213, type: vmess, uuid: 5a29701a-c059-4f39-bdde-53f8566668f9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_ |23.20Mb
-      - Pool_ |18.54Mb
+      - 🇺🇸 馃嚭馃嚫 US_2162
+      - 馃弫 ZZ_2662
+      - 🇺🇸 馃嚭馃嚫 US_2245
+      - 🇨🇳 馃嚚馃嚦CN_1474
+      - 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb
+      - 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb
+      - 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb
+      - 馃弫ZZ_7147 |91.20Mb
+      - 馃弫ZZ_7100 |148.75Mb
+      - 馃弫ZZ_7171 |113.05Mb
+      - 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb
+      - 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb
       - happyflying epic
-      - 🇭🇰 香港稳定复活线路#vip1
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Pool_ |23.20Mb
-      - Pool_ |18.54Mb
+      - 🇺🇸 馃嚭馃嚫 US_2162
+      - 馃弫 ZZ_2662
+      - 🇺🇸 馃嚭馃嚫 US_2245
+      - 🇨🇳 馃嚚馃嚦CN_1474
+      - 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb
+      - 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb
+      - 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb
+      - 馃弫ZZ_7147 |91.20Mb
+      - 馃弫ZZ_7100 |148.75Mb
+      - 馃弫ZZ_7171 |113.05Mb
+      - 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb
+      - 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb
       - happyflying epic
-      - 🇭🇰 香港稳定复活线路#vip1
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_ |23.20Mb
-      - Pool_ |18.54Mb
+      - 🇺🇸 馃嚭馃嚫 US_2162
+      - 馃弫 ZZ_2662
+      - 🇺🇸 馃嚭馃嚫 US_2245
+      - 🇨🇳 馃嚚馃嚦CN_1474
+      - 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb
+      - 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb
+      - 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb
+      - 馃弫ZZ_7147 |91.20Mb
+      - 馃弫ZZ_7100 |148.75Mb
+      - 馃弫ZZ_7171 |113.05Mb
+      - 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb
+      - 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb
       - happyflying epic
-      - 🇭🇰 香港稳定复活线路#vip1
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港稳定复活线路#vip1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Pool_ |23.20Mb
-      - Pool_ |18.54Mb
+      - 🇺🇸 馃嚭馃嚫 US_2162
+      - 馃弫 ZZ_2662
+      - 🇺🇸 馃嚭馃嚫 US_2245
+      - 🇨🇳 馃嚚馃嚦CN_1474
+      - 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb
+      - 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb
+      - 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb
+      - 馃弫ZZ_7147 |91.20Mb
+      - 馃弫ZZ_7100 |148.75Mb
+      - 馃弫ZZ_7171 |113.05Mb
+      - 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb
+      - 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb
       - happyflying epic
-      - 🇭🇰 香港稳定复活线路#vip1
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Pool_ |23.20Mb
-      - Pool_ |18.54Mb
+      - 🇺🇸 馃嚭馃嚫 US_2162
+      - 馃弫 ZZ_2662
+      - 🇺🇸 馃嚭馃嚫 US_2245
+      - 🇨🇳 馃嚚馃嚦CN_1474
+      - 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb
+      - 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb
+      - 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb
+      - 馃弫ZZ_7147 |91.20Mb
+      - 馃弫ZZ_7100 |148.75Mb
+      - 馃弫ZZ_7171 |113.05Mb
+      - 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb
+      - 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb
       - happyflying epic
-      - 🇭🇰 香港稳定复活线路#vip1
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_ |23.20Mb
-      - Pool_ |18.54Mb
+      - 🇺🇸 馃嚭馃嚫 US_2162
+      - 馃弫 ZZ_2662
+      - 🇺🇸 馃嚭馃嚫 US_2245
+      - 🇨🇳 馃嚚馃嚦CN_1474
+      - 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb
+      - 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb
+      - 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb
+      - 馃弫ZZ_7147 |91.20Mb
+      - 馃弫ZZ_7100 |148.75Mb
+      - 馃弫ZZ_7171 |113.05Mb
+      - 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb
+      - 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb
       - happyflying epic
-      - 🇭🇰 香港稳定复活线路#vip1
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,13 +149,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_ |23.20Mb
-      - Pool_ |18.54Mb
+      - 🇺🇸 馃嚭馃嚫 US_2162
+      - 馃弫 ZZ_2662
+      - 🇺🇸 馃嚭馃嚫 US_2245
+      - 🇨🇳 馃嚚馃嚦CN_1474
+      - 🇺🇸 馃嚭馃嚫US_5246 |70.66Mb
+      - 🇺🇸 馃嚭馃嚫US_6654 |116.49Mb
+      - 🇷🇴 馃嚪馃嚧RO_4700 |73.73Mb
+      - 馃弫ZZ_7147 |91.20Mb
+      - 馃弫ZZ_7100 |148.75Mb
+      - 馃弫ZZ_7171 |113.05Mb
+      - 🇺🇸 馃嚭馃嚫US_6740 |133.96Mb
+      - 🇺🇸 馃嚭馃嚫US_6791 |74.46Mb
       - happyflying epic
-      - 🇭🇰 香港稳定复活线路#vip1
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技09-HK-7.14
-      - 🇭🇰 YouTube-阿伟科技01-HK-7.14
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
