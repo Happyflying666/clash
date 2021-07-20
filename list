@@ -5,291 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
-  - {name: "|23.50Mb", server: 212.102.44.88, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 馃嚭馃嚫 US_2424, server: 212.102.44.88, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb, server: auto.freev2.top, port: 22384, type: vmess, uuid: 85c666a8-4baf-445b-a972-f7d8dac91d6f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _704 |56.26Mb, server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 馃嚭馃嚫US_5671, server: 212.102.44.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 馃嚭馃嚫US_5881, server: 212.102.44.88, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: _827 |56.19Mb, server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: _824 |54.33Mb, server: 82.102.26.117, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 馃嚭馃嚫US_5350, server: 212.102.44.88, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: _702 |57.49Mb, server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇨🇳 馃嚚馃嚦 CN_09, server: anycast.live-fi.eqi.me, port: 8015, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live-fi.eqi.me}}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_187, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 馃嚭馃嚫US_5489, server: 89.187.187.68, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇺🇸 馃嚭馃嚫US_6218, server: 212.102.44.98, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_146, server: 212.102.44.98, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_175, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _68 |58.39Mb, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_176, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 馃嚭馃嚫US_5756, server: 148.72.169.211, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_馃嚠馃嚬IT_74, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 馃嚭馃嚫US_5350, server: 212.102.44.88, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: "|23.50Mb", server: 212.102.44.88, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3, server: 212.102.44.81, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 馃嚭馃嚫 US_2424, server: 212.102.44.88, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3 2, server: 212.102.44.81, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3 3, server: 212.102.44.81, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3 4, server: 212.102.44.81, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3 5, server: 212.102.44.81, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3 6, server: 212.102.44.81, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3 7, server: 212.102.44.81, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 馃嚭馃嚫US_5881, server: 212.102.44.88, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇸 馃嚭馃嚫US_6642, server: 212.102.44.98, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇨🇳 馃嚚馃嚦 CN_10, server: anycast.live-fi.eqi.me, port: 8012, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live-fi.eqi.me}}
-  - {name: _69 |57.03Mb, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 馃嚭馃嚫US_6309, server: 66.115.182.101, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 馃嚭馃嚫US_6341, server: 66.115.182.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 馃嚭馃嚫US_5940, server: 212.102.44.98, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: _625 |103.61Mb, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3, server: 212.102.44.81, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 2, server: 212.102.44.81, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 3, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 Pool_馃嚭馃嚫US_176, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 US 🇺🇸 Denver 3 8, server: 212.102.44.81, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: 🇺🇸 US 🇺🇸 Las Vegas 3, server: 79.110.53.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 4, server: 212.102.44.81, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 5, server: 212.102.44.81, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 6, server: 212.102.44.81, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 7, server: 212.102.44.81, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 8, server: 212.102.44.81, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇺🇸 US 🇺🇸 Bend 1, server: 154.16.168.186, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 9, server: 212.102.44.81, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 10, server: 212.102.44.81, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: IT 🇮🇹 Rome 2, server: 82.102.26.117, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 11, server: 212.102.44.81, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 12, server: 212.102.44.81, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 13, server: 212.102.44.81, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: IT 🇮🇹 Rome 2 2, server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 14, server: 212.102.44.81, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 15, server: 212.102.44.81, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: PL 🇵🇱 Gdansk, server: 178.255.45.187, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: IT 🇮🇹 Rome 2 3, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: IT 🇮🇹 Rome 2 4, server: 82.102.26.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 16, server: 212.102.44.81, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: IT 🇮🇹 Rome 2 5, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: GB 🇬🇧 London 3, server: 185.44.78.56, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 17, server: 212.102.44.81, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: GB 🇬🇧 London 3 2, server: 185.44.78.56, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: GB 🇬🇧 London 4, server: 217.146.83.69, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: IT 🇮🇹 Rome 2 6, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 US 🇺🇸 Charlotte 3, server: 154.16.171.213, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US 🇺🇸 Boston 1, server: 173.237.207.58, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: GB 🇬🇧 Glasgow 4, server: 185.108.105.73, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 18, server: 212.102.44.81, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 19, server: 212.102.44.81, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 US 🇺🇸 Denver 3 20, server: 212.102.44.81, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US 🇺🇸 Orlando 4, server: 66.115.182.74, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 US 🇺🇸 Dallas 2, server: 89.187.175.167, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: IT 🇮🇹 Rome 2 7, server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happyflying epic
-      - "|23.50Mb"
-      - 🇺🇸 馃嚭馃嚫 US_2424
-      - 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb
-      - _704 |56.26Mb
-      - 🇺🇸 馃嚭馃嚫US_5671
-      - 🇺🇸 馃嚭馃嚫US_5881
-      - _827 |56.19Mb
-      - _824 |54.33Mb
-      - 🇺🇸 馃嚭馃嚫US_5350
-      - _702 |57.49Mb
-      - 🇨🇳 馃嚚馃嚦 CN_09
-      - 🇺🇸 Pool_馃嚭馃嚫US_187
-      - 🇺🇸 馃嚭馃嚫US_5489
       - 🇺🇸 馃嚭馃嚫US_6218
-      - 🇺🇸 Pool_馃嚭馃嚫US_146
-      - 🇺🇸 Pool_馃嚭馃嚫US_175
-      - 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb
-      - _68 |58.39Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_176
-      - 🇺🇸 馃嚭馃嚫US_5756
-      - Pool_馃嚠馃嚬IT_74
-      - 🇺🇸 馃嚭馃嚫US_6642
-      - 🇨🇳 馃嚚馃嚦 CN_10
-      - _69 |57.03Mb
-      - 🇺🇸 馃嚭馃嚫US_6309
-      - 🇺🇸 馃嚭馃嚫US_6341
-      - 🇺🇸 馃嚭馃嚫US_5940
-      - _625 |103.61Mb
+      - 🇺🇸 馃嚭馃嚫US_5350
+      - "|23.50Mb"
       - 🇺🇸 US 🇺🇸 Denver 3
+      - 🇺🇸 馃嚭馃嚫 US_2424
       - 🇺🇸 US 🇺🇸 Denver 3 2
       - 🇺🇸 US 🇺🇸 Denver 3 3
-      - 🇺🇸 US 🇺🇸 Las Vegas 3
       - 🇺🇸 US 🇺🇸 Denver 3 4
       - 🇺🇸 US 🇺🇸 Denver 3 5
       - 🇺🇸 US 🇺🇸 Denver 3 6
       - 🇺🇸 US 🇺🇸 Denver 3 7
+      - 🇺🇸 馃嚭馃嚫US_5881
+      - 🇺🇸 馃嚭馃嚫US_6642
+      - 🇺🇸 馃嚭馃嚫US_5940
+      - 🇺🇸 Pool_馃嚭馃嚫US_176
       - 🇺🇸 US 🇺🇸 Denver 3 8
-      - 🇺🇸 US 🇺🇸 Bend 1
-      - 🇺🇸 US 🇺🇸 Denver 3 9
-      - 🇺🇸 US 🇺🇸 Denver 3 10
-      - IT 🇮🇹 Rome 2
-      - 🇺🇸 US 🇺🇸 Denver 3 11
-      - 🇺🇸 US 🇺🇸 Denver 3 12
-      - 🇺🇸 US 🇺🇸 Denver 3 13
-      - IT 🇮🇹 Rome 2 2
-      - 🇺🇸 US 🇺🇸 Denver 3 14
-      - 🇺🇸 US 🇺🇸 Denver 3 15
-      - PL 🇵🇱 Gdansk
-      - IT 🇮🇹 Rome 2 3
-      - IT 🇮🇹 Rome 2 4
-      - 🇺🇸 US 🇺🇸 Denver 3 16
-      - IT 🇮🇹 Rome 2 5
-      - GB 🇬🇧 London 3
-      - 🇺🇸 US 🇺🇸 Denver 3 17
-      - GB 🇬🇧 London 3 2
-      - GB 🇬🇧 London 4
-      - IT 🇮🇹 Rome 2 6
-      - 🇺🇸 US 🇺🇸 Charlotte 3
-      - 🇺🇸 US 🇺🇸 Boston 1
-      - GB 🇬🇧 Glasgow 4
-      - 🇺🇸 US 🇺🇸 Denver 3 18
-      - 🇺🇸 US 🇺🇸 Denver 3 19
-      - 🇺🇸 US 🇺🇸 Denver 3 20
-      - 🇺🇸 US 🇺🇸 Orlando 4
-      - 🇺🇸 US 🇺🇸 Dallas 2
-      - IT 🇮🇹 Rome 2 7
+      - 🇺🇸 US 🇺🇸 Las Vegas 3
+      - happyflying epic
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - happyflying epic
-      - "|23.50Mb"
-      - 🇺🇸 馃嚭馃嚫 US_2424
-      - 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb
-      - _704 |56.26Mb
-      - 🇺🇸 馃嚭馃嚫US_5671
-      - 🇺🇸 馃嚭馃嚫US_5881
-      - _827 |56.19Mb
-      - _824 |54.33Mb
-      - 🇺🇸 馃嚭馃嚫US_5350
-      - _702 |57.49Mb
-      - 🇨🇳 馃嚚馃嚦 CN_09
-      - 🇺🇸 Pool_馃嚭馃嚫US_187
-      - 🇺🇸 馃嚭馃嚫US_5489
       - 🇺🇸 馃嚭馃嚫US_6218
-      - 🇺🇸 Pool_馃嚭馃嚫US_146
-      - 🇺🇸 Pool_馃嚭馃嚫US_175
-      - 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb
-      - _68 |58.39Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_176
-      - 🇺🇸 馃嚭馃嚫US_5756
-      - Pool_馃嚠馃嚬IT_74
-      - 🇺🇸 馃嚭馃嚫US_6642
-      - 🇨🇳 馃嚚馃嚦 CN_10
-      - _69 |57.03Mb
-      - 🇺🇸 馃嚭馃嚫US_6309
-      - 🇺🇸 馃嚭馃嚫US_6341
-      - 🇺🇸 馃嚭馃嚫US_5940
-      - _625 |103.61Mb
+      - 🇺🇸 馃嚭馃嚫US_5350
+      - "|23.50Mb"
       - 🇺🇸 US 🇺🇸 Denver 3
+      - 🇺🇸 馃嚭馃嚫 US_2424
       - 🇺🇸 US 🇺🇸 Denver 3 2
       - 🇺🇸 US 🇺🇸 Denver 3 3
-      - 🇺🇸 US 🇺🇸 Las Vegas 3
       - 🇺🇸 US 🇺🇸 Denver 3 4
       - 🇺🇸 US 🇺🇸 Denver 3 5
       - 🇺🇸 US 🇺🇸 Denver 3 6
       - 🇺🇸 US 🇺🇸 Denver 3 7
+      - 🇺🇸 馃嚭馃嚫US_5881
+      - 🇺🇸 馃嚭馃嚫US_6642
+      - 🇺🇸 馃嚭馃嚫US_5940
+      - 🇺🇸 Pool_馃嚭馃嚫US_176
       - 🇺🇸 US 🇺🇸 Denver 3 8
-      - 🇺🇸 US 🇺🇸 Bend 1
-      - 🇺🇸 US 🇺🇸 Denver 3 9
-      - 🇺🇸 US 🇺🇸 Denver 3 10
-      - IT 🇮🇹 Rome 2
-      - 🇺🇸 US 🇺🇸 Denver 3 11
-      - 🇺🇸 US 🇺🇸 Denver 3 12
-      - 🇺🇸 US 🇺🇸 Denver 3 13
-      - IT 🇮🇹 Rome 2 2
-      - 🇺🇸 US 🇺🇸 Denver 3 14
-      - 🇺🇸 US 🇺🇸 Denver 3 15
-      - PL 🇵🇱 Gdansk
-      - IT 🇮🇹 Rome 2 3
-      - IT 🇮🇹 Rome 2 4
-      - 🇺🇸 US 🇺🇸 Denver 3 16
-      - IT 🇮🇹 Rome 2 5
-      - GB 🇬🇧 London 3
-      - 🇺🇸 US 🇺🇸 Denver 3 17
-      - GB 🇬🇧 London 3 2
-      - GB 🇬🇧 London 4
-      - IT 🇮🇹 Rome 2 6
-      - 🇺🇸 US 🇺🇸 Charlotte 3
-      - 🇺🇸 US 🇺🇸 Boston 1
-      - GB 🇬🇧 Glasgow 4
-      - 🇺🇸 US 🇺🇸 Denver 3 18
-      - 🇺🇸 US 🇺🇸 Denver 3 19
-      - 🇺🇸 US 🇺🇸 Denver 3 20
-      - 🇺🇸 US 🇺🇸 Orlando 4
-      - 🇺🇸 US 🇺🇸 Dallas 2
-      - IT 🇮🇹 Rome 2 7
+      - 🇺🇸 US 🇺🇸 Las Vegas 3
+      - happyflying epic
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happyflying epic
-      - "|23.50Mb"
-      - 🇺🇸 馃嚭馃嚫 US_2424
-      - 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb
-      - _704 |56.26Mb
-      - 🇺🇸 馃嚭馃嚫US_5671
-      - 🇺🇸 馃嚭馃嚫US_5881
-      - _827 |56.19Mb
-      - _824 |54.33Mb
-      - 🇺🇸 馃嚭馃嚫US_5350
-      - _702 |57.49Mb
-      - 🇨🇳 馃嚚馃嚦 CN_09
-      - 🇺🇸 Pool_馃嚭馃嚫US_187
-      - 🇺🇸 馃嚭馃嚫US_5489
       - 🇺🇸 馃嚭馃嚫US_6218
-      - 🇺🇸 Pool_馃嚭馃嚫US_146
-      - 🇺🇸 Pool_馃嚭馃嚫US_175
-      - 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb
-      - _68 |58.39Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_176
-      - 🇺🇸 馃嚭馃嚫US_5756
-      - Pool_馃嚠馃嚬IT_74
-      - 🇺🇸 馃嚭馃嚫US_6642
-      - 🇨🇳 馃嚚馃嚦 CN_10
-      - _69 |57.03Mb
-      - 🇺🇸 馃嚭馃嚫US_6309
-      - 🇺🇸 馃嚭馃嚫US_6341
-      - 🇺🇸 馃嚭馃嚫US_5940
-      - _625 |103.61Mb
+      - 🇺🇸 馃嚭馃嚫US_5350
+      - "|23.50Mb"
       - 🇺🇸 US 🇺🇸 Denver 3
+      - 🇺🇸 馃嚭馃嚫 US_2424
       - 🇺🇸 US 🇺🇸 Denver 3 2
       - 🇺🇸 US 🇺🇸 Denver 3 3
-      - 🇺🇸 US 🇺🇸 Las Vegas 3
       - 🇺🇸 US 🇺🇸 Denver 3 4
       - 🇺🇸 US 🇺🇸 Denver 3 5
       - 🇺🇸 US 🇺🇸 Denver 3 6
       - 🇺🇸 US 🇺🇸 Denver 3 7
+      - 🇺🇸 馃嚭馃嚫US_5881
+      - 🇺🇸 馃嚭馃嚫US_6642
+      - 🇺🇸 馃嚭馃嚫US_5940
+      - 🇺🇸 Pool_馃嚭馃嚫US_176
       - 🇺🇸 US 🇺🇸 Denver 3 8
-      - 🇺🇸 US 🇺🇸 Bend 1
-      - 🇺🇸 US 🇺🇸 Denver 3 9
-      - 🇺🇸 US 🇺🇸 Denver 3 10
-      - IT 🇮🇹 Rome 2
-      - 🇺🇸 US 🇺🇸 Denver 3 11
-      - 🇺🇸 US 🇺🇸 Denver 3 12
-      - 🇺🇸 US 🇺🇸 Denver 3 13
-      - IT 🇮🇹 Rome 2 2
-      - 🇺🇸 US 🇺🇸 Denver 3 14
-      - 🇺🇸 US 🇺🇸 Denver 3 15
-      - PL 🇵🇱 Gdansk
-      - IT 🇮🇹 Rome 2 3
-      - IT 🇮🇹 Rome 2 4
-      - 🇺🇸 US 🇺🇸 Denver 3 16
-      - IT 🇮🇹 Rome 2 5
-      - GB 🇬🇧 London 3
-      - 🇺🇸 US 🇺🇸 Denver 3 17
-      - GB 🇬🇧 London 3 2
-      - GB 🇬🇧 London 4
-      - IT 🇮🇹 Rome 2 6
-      - 🇺🇸 US 🇺🇸 Charlotte 3
-      - 🇺🇸 US 🇺🇸 Boston 1
-      - GB 🇬🇧 Glasgow 4
-      - 🇺🇸 US 🇺🇸 Denver 3 18
-      - 🇺🇸 US 🇺🇸 Denver 3 19
-      - 🇺🇸 US 🇺🇸 Denver 3 20
-      - 🇺🇸 US 🇺🇸 Orlando 4
-      - 🇺🇸 US 🇺🇸 Dallas 2
-      - IT 🇮🇹 Rome 2 7
+      - 🇺🇸 US 🇺🇸 Las Vegas 3
+      - happyflying epic
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -300,218 +104,71 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - happyflying epic
-      - "|23.50Mb"
-      - 🇺🇸 馃嚭馃嚫 US_2424
-      - 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb
-      - _704 |56.26Mb
-      - 🇺🇸 馃嚭馃嚫US_5671
-      - 🇺🇸 馃嚭馃嚫US_5881
-      - _827 |56.19Mb
-      - _824 |54.33Mb
-      - 🇺🇸 馃嚭馃嚫US_5350
-      - _702 |57.49Mb
-      - 🇨🇳 馃嚚馃嚦 CN_09
-      - 🇺🇸 Pool_馃嚭馃嚫US_187
-      - 🇺🇸 馃嚭馃嚫US_5489
       - 🇺🇸 馃嚭馃嚫US_6218
-      - 🇺🇸 Pool_馃嚭馃嚫US_146
-      - 🇺🇸 Pool_馃嚭馃嚫US_175
-      - 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb
-      - _68 |58.39Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_176
-      - 🇺🇸 馃嚭馃嚫US_5756
-      - Pool_馃嚠馃嚬IT_74
-      - 🇺🇸 馃嚭馃嚫US_6642
-      - 🇨🇳 馃嚚馃嚦 CN_10
-      - _69 |57.03Mb
-      - 🇺🇸 馃嚭馃嚫US_6309
-      - 🇺🇸 馃嚭馃嚫US_6341
-      - 🇺🇸 馃嚭馃嚫US_5940
-      - _625 |103.61Mb
+      - 🇺🇸 馃嚭馃嚫US_5350
+      - "|23.50Mb"
       - 🇺🇸 US 🇺🇸 Denver 3
+      - 🇺🇸 馃嚭馃嚫 US_2424
       - 🇺🇸 US 🇺🇸 Denver 3 2
       - 🇺🇸 US 🇺🇸 Denver 3 3
-      - 🇺🇸 US 🇺🇸 Las Vegas 3
       - 🇺🇸 US 🇺🇸 Denver 3 4
       - 🇺🇸 US 🇺🇸 Denver 3 5
       - 🇺🇸 US 🇺🇸 Denver 3 6
       - 🇺🇸 US 🇺🇸 Denver 3 7
+      - 🇺🇸 馃嚭馃嚫US_5881
+      - 🇺🇸 馃嚭馃嚫US_6642
+      - 🇺🇸 馃嚭馃嚫US_5940
+      - 🇺🇸 Pool_馃嚭馃嚫US_176
       - 🇺🇸 US 🇺🇸 Denver 3 8
-      - 🇺🇸 US 🇺🇸 Bend 1
-      - 🇺🇸 US 🇺🇸 Denver 3 9
-      - 🇺🇸 US 🇺🇸 Denver 3 10
-      - IT 🇮🇹 Rome 2
-      - 🇺🇸 US 🇺🇸 Denver 3 11
-      - 🇺🇸 US 🇺🇸 Denver 3 12
-      - 🇺🇸 US 🇺🇸 Denver 3 13
-      - IT 🇮🇹 Rome 2 2
-      - 🇺🇸 US 🇺🇸 Denver 3 14
-      - 🇺🇸 US 🇺🇸 Denver 3 15
-      - PL 🇵🇱 Gdansk
-      - IT 🇮🇹 Rome 2 3
-      - IT 🇮🇹 Rome 2 4
-      - 🇺🇸 US 🇺🇸 Denver 3 16
-      - IT 🇮🇹 Rome 2 5
-      - GB 🇬🇧 London 3
-      - 🇺🇸 US 🇺🇸 Denver 3 17
-      - GB 🇬🇧 London 3 2
-      - GB 🇬🇧 London 4
-      - IT 🇮🇹 Rome 2 6
-      - 🇺🇸 US 🇺🇸 Charlotte 3
-      - 🇺🇸 US 🇺🇸 Boston 1
-      - GB 🇬🇧 Glasgow 4
-      - 🇺🇸 US 🇺🇸 Denver 3 18
-      - 🇺🇸 US 🇺🇸 Denver 3 19
-      - 🇺🇸 US 🇺🇸 Denver 3 20
-      - 🇺🇸 US 🇺🇸 Orlando 4
-      - 🇺🇸 US 🇺🇸 Dallas 2
-      - IT 🇮🇹 Rome 2 7
+      - 🇺🇸 US 🇺🇸 Las Vegas 3
+      - happyflying epic
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - happyflying epic
-      - "|23.50Mb"
-      - 🇺🇸 馃嚭馃嚫 US_2424
-      - 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb
-      - _704 |56.26Mb
-      - 🇺🇸 馃嚭馃嚫US_5671
-      - 🇺🇸 馃嚭馃嚫US_5881
-      - _827 |56.19Mb
-      - _824 |54.33Mb
-      - 🇺🇸 馃嚭馃嚫US_5350
-      - _702 |57.49Mb
-      - 🇨🇳 馃嚚馃嚦 CN_09
-      - 🇺🇸 Pool_馃嚭馃嚫US_187
-      - 🇺🇸 馃嚭馃嚫US_5489
       - 🇺🇸 馃嚭馃嚫US_6218
-      - 🇺🇸 Pool_馃嚭馃嚫US_146
-      - 🇺🇸 Pool_馃嚭馃嚫US_175
-      - 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb
-      - _68 |58.39Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_176
-      - 🇺🇸 馃嚭馃嚫US_5756
-      - Pool_馃嚠馃嚬IT_74
-      - 🇺🇸 馃嚭馃嚫US_6642
-      - 🇨🇳 馃嚚馃嚦 CN_10
-      - _69 |57.03Mb
-      - 🇺🇸 馃嚭馃嚫US_6309
-      - 🇺🇸 馃嚭馃嚫US_6341
-      - 🇺🇸 馃嚭馃嚫US_5940
-      - _625 |103.61Mb
+      - 🇺🇸 馃嚭馃嚫US_5350
+      - "|23.50Mb"
       - 🇺🇸 US 🇺🇸 Denver 3
+      - 🇺🇸 馃嚭馃嚫 US_2424
       - 🇺🇸 US 🇺🇸 Denver 3 2
       - 🇺🇸 US 🇺🇸 Denver 3 3
-      - 🇺🇸 US 🇺🇸 Las Vegas 3
       - 🇺🇸 US 🇺🇸 Denver 3 4
       - 🇺🇸 US 🇺🇸 Denver 3 5
       - 🇺🇸 US 🇺🇸 Denver 3 6
       - 🇺🇸 US 🇺🇸 Denver 3 7
+      - 🇺🇸 馃嚭馃嚫US_5881
+      - 🇺🇸 馃嚭馃嚫US_6642
+      - 🇺🇸 馃嚭馃嚫US_5940
+      - 🇺🇸 Pool_馃嚭馃嚫US_176
       - 🇺🇸 US 🇺🇸 Denver 3 8
-      - 🇺🇸 US 🇺🇸 Bend 1
-      - 🇺🇸 US 🇺🇸 Denver 3 9
-      - 🇺🇸 US 🇺🇸 Denver 3 10
-      - IT 🇮🇹 Rome 2
-      - 🇺🇸 US 🇺🇸 Denver 3 11
-      - 🇺🇸 US 🇺🇸 Denver 3 12
-      - 🇺🇸 US 🇺🇸 Denver 3 13
-      - IT 🇮🇹 Rome 2 2
-      - 🇺🇸 US 🇺🇸 Denver 3 14
-      - 🇺🇸 US 🇺🇸 Denver 3 15
-      - PL 🇵🇱 Gdansk
-      - IT 🇮🇹 Rome 2 3
-      - IT 🇮🇹 Rome 2 4
-      - 🇺🇸 US 🇺🇸 Denver 3 16
-      - IT 🇮🇹 Rome 2 5
-      - GB 🇬🇧 London 3
-      - 🇺🇸 US 🇺🇸 Denver 3 17
-      - GB 🇬🇧 London 3 2
-      - GB 🇬🇧 London 4
-      - IT 🇮🇹 Rome 2 6
-      - 🇺🇸 US 🇺🇸 Charlotte 3
-      - 🇺🇸 US 🇺🇸 Boston 1
-      - GB 🇬🇧 Glasgow 4
-      - 🇺🇸 US 🇺🇸 Denver 3 18
-      - 🇺🇸 US 🇺🇸 Denver 3 19
-      - 🇺🇸 US 🇺🇸 Denver 3 20
-      - 🇺🇸 US 🇺🇸 Orlando 4
-      - 🇺🇸 US 🇺🇸 Dallas 2
-      - IT 🇮🇹 Rome 2 7
+      - 🇺🇸 US 🇺🇸 Las Vegas 3
+      - happyflying epic
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happyflying epic
-      - "|23.50Mb"
-      - 🇺🇸 馃嚭馃嚫 US_2424
-      - 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb
-      - _704 |56.26Mb
-      - 🇺🇸 馃嚭馃嚫US_5671
-      - 🇺🇸 馃嚭馃嚫US_5881
-      - _827 |56.19Mb
-      - _824 |54.33Mb
-      - 🇺🇸 馃嚭馃嚫US_5350
-      - _702 |57.49Mb
-      - 🇨🇳 馃嚚馃嚦 CN_09
-      - 🇺🇸 Pool_馃嚭馃嚫US_187
-      - 🇺🇸 馃嚭馃嚫US_5489
       - 🇺🇸 馃嚭馃嚫US_6218
-      - 🇺🇸 Pool_馃嚭馃嚫US_146
-      - 🇺🇸 Pool_馃嚭馃嚫US_175
-      - 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb
-      - _68 |58.39Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_176
-      - 🇺🇸 馃嚭馃嚫US_5756
-      - Pool_馃嚠馃嚬IT_74
-      - 🇺🇸 馃嚭馃嚫US_6642
-      - 🇨🇳 馃嚚馃嚦 CN_10
-      - _69 |57.03Mb
-      - 🇺🇸 馃嚭馃嚫US_6309
-      - 🇺🇸 馃嚭馃嚫US_6341
-      - 🇺🇸 馃嚭馃嚫US_5940
-      - _625 |103.61Mb
+      - 🇺🇸 馃嚭馃嚫US_5350
+      - "|23.50Mb"
       - 🇺🇸 US 🇺🇸 Denver 3
+      - 🇺🇸 馃嚭馃嚫 US_2424
       - 🇺🇸 US 🇺🇸 Denver 3 2
       - 🇺🇸 US 🇺🇸 Denver 3 3
-      - 🇺🇸 US 🇺🇸 Las Vegas 3
       - 🇺🇸 US 🇺🇸 Denver 3 4
       - 🇺🇸 US 🇺🇸 Denver 3 5
       - 🇺🇸 US 🇺🇸 Denver 3 6
       - 🇺🇸 US 🇺🇸 Denver 3 7
+      - 🇺🇸 馃嚭馃嚫US_5881
+      - 🇺🇸 馃嚭馃嚫US_6642
+      - 🇺🇸 馃嚭馃嚫US_5940
+      - 🇺🇸 Pool_馃嚭馃嚫US_176
       - 🇺🇸 US 🇺🇸 Denver 3 8
-      - 🇺🇸 US 🇺🇸 Bend 1
-      - 🇺🇸 US 🇺🇸 Denver 3 9
-      - 🇺🇸 US 🇺🇸 Denver 3 10
-      - IT 🇮🇹 Rome 2
-      - 🇺🇸 US 🇺🇸 Denver 3 11
-      - 🇺🇸 US 🇺🇸 Denver 3 12
-      - 🇺🇸 US 🇺🇸 Denver 3 13
-      - IT 🇮🇹 Rome 2 2
-      - 🇺🇸 US 🇺🇸 Denver 3 14
-      - 🇺🇸 US 🇺🇸 Denver 3 15
-      - PL 🇵🇱 Gdansk
-      - IT 🇮🇹 Rome 2 3
-      - IT 🇮🇹 Rome 2 4
-      - 🇺🇸 US 🇺🇸 Denver 3 16
-      - IT 🇮🇹 Rome 2 5
-      - GB 🇬🇧 London 3
-      - 🇺🇸 US 🇺🇸 Denver 3 17
-      - GB 🇬🇧 London 3 2
-      - GB 🇬🇧 London 4
-      - IT 🇮🇹 Rome 2 6
-      - 🇺🇸 US 🇺🇸 Charlotte 3
-      - 🇺🇸 US 🇺🇸 Boston 1
-      - GB 🇬🇧 Glasgow 4
-      - 🇺🇸 US 🇺🇸 Denver 3 18
-      - 🇺🇸 US 🇺🇸 Denver 3 19
-      - 🇺🇸 US 🇺🇸 Denver 3 20
-      - 🇺🇸 US 🇺🇸 Orlando 4
-      - 🇺🇸 US 🇺🇸 Dallas 2
-      - IT 🇮🇹 Rome 2 7
+      - 🇺🇸 US 🇺🇸 Las Vegas 3
+      - happyflying epic
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -527,73 +184,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happyflying epic
-      - "|23.50Mb"
-      - 🇺🇸 馃嚭馃嚫 US_2424
-      - 🇯🇵 馃嚡馃嚨 JP_3549 |31.71Mb
-      - _704 |56.26Mb
-      - 🇺🇸 馃嚭馃嚫US_5671
-      - 🇺🇸 馃嚭馃嚫US_5881
-      - _827 |56.19Mb
-      - _824 |54.33Mb
-      - 🇺🇸 馃嚭馃嚫US_5350
-      - _702 |57.49Mb
-      - 🇨🇳 馃嚚馃嚦 CN_09
-      - 🇺🇸 Pool_馃嚭馃嚫US_187
-      - 🇺🇸 馃嚭馃嚫US_5489
       - 🇺🇸 馃嚭馃嚫US_6218
-      - 🇺🇸 Pool_馃嚭馃嚫US_146
-      - 🇺🇸 Pool_馃嚭馃嚫US_175
-      - 🇭🇰 馃嚟馃嚢HK_3098 |23.19Mb
-      - _68 |58.39Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_176
-      - 🇺🇸 馃嚭馃嚫US_5756
-      - Pool_馃嚠馃嚬IT_74
-      - 🇺🇸 馃嚭馃嚫US_6642
-      - 🇨🇳 馃嚚馃嚦 CN_10
-      - _69 |57.03Mb
-      - 🇺🇸 馃嚭馃嚫US_6309
-      - 🇺🇸 馃嚭馃嚫US_6341
-      - 🇺🇸 馃嚭馃嚫US_5940
-      - _625 |103.61Mb
+      - 🇺🇸 馃嚭馃嚫US_5350
+      - "|23.50Mb"
       - 🇺🇸 US 🇺🇸 Denver 3
+      - 🇺🇸 馃嚭馃嚫 US_2424
       - 🇺🇸 US 🇺🇸 Denver 3 2
       - 🇺🇸 US 🇺🇸 Denver 3 3
-      - 🇺🇸 US 🇺🇸 Las Vegas 3
       - 🇺🇸 US 🇺🇸 Denver 3 4
       - 🇺🇸 US 🇺🇸 Denver 3 5
       - 🇺🇸 US 🇺🇸 Denver 3 6
       - 🇺🇸 US 🇺🇸 Denver 3 7
+      - 🇺🇸 馃嚭馃嚫US_5881
+      - 🇺🇸 馃嚭馃嚫US_6642
+      - 🇺🇸 馃嚭馃嚫US_5940
+      - 🇺🇸 Pool_馃嚭馃嚫US_176
       - 🇺🇸 US 🇺🇸 Denver 3 8
-      - 🇺🇸 US 🇺🇸 Bend 1
-      - 🇺🇸 US 🇺🇸 Denver 3 9
-      - 🇺🇸 US 🇺🇸 Denver 3 10
-      - IT 🇮🇹 Rome 2
-      - 🇺🇸 US 🇺🇸 Denver 3 11
-      - 🇺🇸 US 🇺🇸 Denver 3 12
-      - 🇺🇸 US 🇺🇸 Denver 3 13
-      - IT 🇮🇹 Rome 2 2
-      - 🇺🇸 US 🇺🇸 Denver 3 14
-      - 🇺🇸 US 🇺🇸 Denver 3 15
-      - PL 🇵🇱 Gdansk
-      - IT 🇮🇹 Rome 2 3
-      - IT 🇮🇹 Rome 2 4
-      - 🇺🇸 US 🇺🇸 Denver 3 16
-      - IT 🇮🇹 Rome 2 5
-      - GB 🇬🇧 London 3
-      - 🇺🇸 US 🇺🇸 Denver 3 17
-      - GB 🇬🇧 London 3 2
-      - GB 🇬🇧 London 4
-      - IT 🇮🇹 Rome 2 6
-      - 🇺🇸 US 🇺🇸 Charlotte 3
-      - 🇺🇸 US 🇺🇸 Boston 1
-      - GB 🇬🇧 Glasgow 4
-      - 🇺🇸 US 🇺🇸 Denver 3 18
-      - 🇺🇸 US 🇺🇸 Denver 3 19
-      - 🇺🇸 US 🇺🇸 Denver 3 20
-      - 🇺🇸 US 🇺🇸 Orlando 4
-      - 🇺🇸 US 🇺🇸 Dallas 2
-      - IT 🇮🇹 Rome 2 7
+      - 🇺🇸 US 🇺🇸 Las Vegas 3
+      - happyflying epic
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
