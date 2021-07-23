@@ -5,87 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US_2311, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
-  - {name: 🇺🇸 US_2059, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_6642, server: 212.102.44.98, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 🇺🇸 US_2516, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_2335, server: 154.17.5.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 US_2277, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_2171, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_1955, server: 154.17.2.117, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: 2SYSIDnBqT5eCl736xlD4yODaXaSF9EeNp3OZcpjyC8ARYwA0zgC83aKxFZRu3}
+  - {name: 🇺🇸 US_5567 |67.45Mb, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_6892, server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
+  - {name: 🇺🇸 US_2205, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
+  - {name: 🇺🇸 US_2255, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_2335, server: 154.17.5.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 US_2420, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 US_2265, server: 154.17.2.217, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_2171, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_2490, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
-  - {name: 🇺🇸 US_2205, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
+  - {name: 🇺🇸 US_2311, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
+  - {name: 🇺🇸 US_2490, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_2186, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_2055, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: "|55.22Mb", server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 US_6642, server: 212.102.44.98, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 🇺🇸 US_6251 |81.08Mb, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_6892, server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
-  - {name: 🇺🇸 US_2255, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_5567 |67.45Mb, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_2059, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US_2311
-      - 🇺🇸 US_2059
-      - 🇺🇸 US_6642
       - 🇺🇸 US_2516
-      - 🇺🇸 US_2335
       - 🇺🇸 US_2277
+      - 🇺🇸 US_2171
+      - 🇺🇸 US_1955
+      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_6892
+      - 🇺🇸 US_2205
+      - 🇺🇸 US_2255
+      - 🇺🇸 US_2335
       - 🇺🇸 US_2420
       - 🇺🇸 US_2265
-      - 🇺🇸 US_2171
-      - 🇺🇸 US_2490
       - happyflying epic
-      - 🇺🇸 US_2205
+      - 🇺🇸 US_2311
+      - 🇺🇸 US_2490
+      - 🇺🇸 US_2186
+      - 🇺🇸 US_2055
+      - "|55.22Mb"
+      - 🇺🇸 US_6642
       - 🇺🇸 US_6251 |81.08Mb
-      - 🇺🇸 US_6892
-      - 🇺🇸 US_2255
-      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_2059
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 US_2311
-      - 🇺🇸 US_2059
-      - 🇺🇸 US_6642
       - 🇺🇸 US_2516
-      - 🇺🇸 US_2335
       - 🇺🇸 US_2277
+      - 🇺🇸 US_2171
+      - 🇺🇸 US_1955
+      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_6892
+      - 🇺🇸 US_2205
+      - 🇺🇸 US_2255
+      - 🇺🇸 US_2335
       - 🇺🇸 US_2420
       - 🇺🇸 US_2265
-      - 🇺🇸 US_2171
-      - 🇺🇸 US_2490
       - happyflying epic
-      - 🇺🇸 US_2205
+      - 🇺🇸 US_2311
+      - 🇺🇸 US_2490
+      - 🇺🇸 US_2186
+      - 🇺🇸 US_2055
+      - "|55.22Mb"
+      - 🇺🇸 US_6642
       - 🇺🇸 US_6251 |81.08Mb
-      - 🇺🇸 US_6892
-      - 🇺🇸 US_2255
-      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_2059
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US_2311
-      - 🇺🇸 US_2059
-      - 🇺🇸 US_6642
       - 🇺🇸 US_2516
-      - 🇺🇸 US_2335
       - 🇺🇸 US_2277
+      - 🇺🇸 US_2171
+      - 🇺🇸 US_1955
+      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_6892
+      - 🇺🇸 US_2205
+      - 🇺🇸 US_2255
+      - 🇺🇸 US_2335
       - 🇺🇸 US_2420
       - 🇺🇸 US_2265
-      - 🇺🇸 US_2171
-      - 🇺🇸 US_2490
       - happyflying epic
-      - 🇺🇸 US_2205
+      - 🇺🇸 US_2311
+      - 🇺🇸 US_2490
+      - 🇺🇸 US_2186
+      - 🇺🇸 US_2055
+      - "|55.22Mb"
+      - 🇺🇸 US_6642
       - 🇺🇸 US_6251 |81.08Mb
-      - 🇺🇸 US_6892
-      - 🇺🇸 US_2255
-      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_2059
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -96,65 +112,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 US_2311
-      - 🇺🇸 US_2059
-      - 🇺🇸 US_6642
       - 🇺🇸 US_2516
-      - 🇺🇸 US_2335
       - 🇺🇸 US_2277
+      - 🇺🇸 US_2171
+      - 🇺🇸 US_1955
+      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_6892
+      - 🇺🇸 US_2205
+      - 🇺🇸 US_2255
+      - 🇺🇸 US_2335
       - 🇺🇸 US_2420
       - 🇺🇸 US_2265
-      - 🇺🇸 US_2171
-      - 🇺🇸 US_2490
       - happyflying epic
-      - 🇺🇸 US_2205
+      - 🇺🇸 US_2311
+      - 🇺🇸 US_2490
+      - 🇺🇸 US_2186
+      - 🇺🇸 US_2055
+      - "|55.22Mb"
+      - 🇺🇸 US_6642
       - 🇺🇸 US_6251 |81.08Mb
-      - 🇺🇸 US_6892
-      - 🇺🇸 US_2255
-      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_2059
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US_2311
-      - 🇺🇸 US_2059
-      - 🇺🇸 US_6642
       - 🇺🇸 US_2516
-      - 🇺🇸 US_2335
       - 🇺🇸 US_2277
+      - 🇺🇸 US_2171
+      - 🇺🇸 US_1955
+      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_6892
+      - 🇺🇸 US_2205
+      - 🇺🇸 US_2255
+      - 🇺🇸 US_2335
       - 🇺🇸 US_2420
       - 🇺🇸 US_2265
-      - 🇺🇸 US_2171
-      - 🇺🇸 US_2490
       - happyflying epic
-      - 🇺🇸 US_2205
+      - 🇺🇸 US_2311
+      - 🇺🇸 US_2490
+      - 🇺🇸 US_2186
+      - 🇺🇸 US_2055
+      - "|55.22Mb"
+      - 🇺🇸 US_6642
       - 🇺🇸 US_6251 |81.08Mb
-      - 🇺🇸 US_6892
-      - 🇺🇸 US_2255
-      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_2059
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US_2311
-      - 🇺🇸 US_2059
-      - 🇺🇸 US_6642
       - 🇺🇸 US_2516
-      - 🇺🇸 US_2335
       - 🇺🇸 US_2277
+      - 🇺🇸 US_2171
+      - 🇺🇸 US_1955
+      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_6892
+      - 🇺🇸 US_2205
+      - 🇺🇸 US_2255
+      - 🇺🇸 US_2335
       - 🇺🇸 US_2420
       - 🇺🇸 US_2265
-      - 🇺🇸 US_2171
-      - 🇺🇸 US_2490
       - happyflying epic
-      - 🇺🇸 US_2205
+      - 🇺🇸 US_2311
+      - 🇺🇸 US_2490
+      - 🇺🇸 US_2186
+      - 🇺🇸 US_2055
+      - "|55.22Mb"
+      - 🇺🇸 US_6642
       - 🇺🇸 US_6251 |81.08Mb
-      - 🇺🇸 US_6892
-      - 🇺🇸 US_2255
-      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_2059
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,22 +198,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US_2311
-      - 🇺🇸 US_2059
-      - 🇺🇸 US_6642
       - 🇺🇸 US_2516
-      - 🇺🇸 US_2335
       - 🇺🇸 US_2277
+      - 🇺🇸 US_2171
+      - 🇺🇸 US_1955
+      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_6892
+      - 🇺🇸 US_2205
+      - 🇺🇸 US_2255
+      - 🇺🇸 US_2335
       - 🇺🇸 US_2420
       - 🇺🇸 US_2265
-      - 🇺🇸 US_2171
-      - 🇺🇸 US_2490
       - happyflying epic
-      - 🇺🇸 US_2205
+      - 🇺🇸 US_2311
+      - 🇺🇸 US_2490
+      - 🇺🇸 US_2186
+      - 🇺🇸 US_2055
+      - "|55.22Mb"
+      - 🇺🇸 US_6642
       - 🇺🇸 US_6251 |81.08Mb
-      - 🇺🇸 US_6892
-      - 🇺🇸 US_2255
-      - 🇺🇸 US_5567 |67.45Mb
+      - 🇺🇸 US_2059
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
