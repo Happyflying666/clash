@@ -5,135 +5,115 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
-  - {name: 🇭🇰 HK_4450, server: 193.110.201.185, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_197, server: 212.102.44.98, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 US_112, server: 212.102.44.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb, server: nkd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 209922:RkdzUU, obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb, server: nf2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 209922:RkdzUU, obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb, server: nf10.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 209922:RkdzUU, obfs-param: download.windowsupdate.com}
   - {name: 🇭🇰 HK_4417, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Relay_ | 5.34Mb, server: 193.110.201.185, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: UA | 5.12Mb, server: 37.19.199.224, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: UA |11.56Mb, server: 37.19.199.224, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: UA |11.44Mb, server: 37.19.199.224, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: UA |11.28Mb, server: 37.19.199.224, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 US_51, server: 212.102.44.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: UA_7883, server: 37.19.199.224, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: UA |11.07Mb, server: 37.19.199.224, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: UA |11.72Mb, server: 37.19.199.224, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: UA |11.06Mb, server: 37.19.199.224, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: UA |11.48Mb, server: 37.19.199.224, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: UA |11.48Mb 2, server: 37.19.199.224, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 馃嚭馃嚘UA_8201, server: 37.19.199.224, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: UA |11.69Mb, server: 37.19.199.224, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: _979 |49.17Mb, server: c39s3.jamjams.net, port: 61535, type: vmess, uuid: eacf6911-b896-42ba-8340-298083d7b2e4, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: UA_7871, server: 37.19.199.224, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: UA |11.28Mb, server: 37.19.199.224, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: UA |11.48Mb, server: 37.19.199.224, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: happyflying epic, server: epic.kidsvpn.cn, port: 27900, type: ss, cipher: aes-256-gcm, password: CuvCyWDAVr}
+  - {name: UA |11.72Mb, server: 37.19.199.224, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: UA_7907, server: 37.19.199.224, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: IT_58, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb, server: nf5.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 209922:RkdzUU, obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb, server: nn8.boom.party, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 209922:RkdzUU, obfs-param: download.windowsupdate.com}
+  - {name: UA |11.48Mb 2, server: 37.19.199.224, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇺🇸 US_47, server: 143.244.57.99, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: ZZ_12315, server: 138.199.19.184, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇺 RU_7318, server: 5.188.230.247, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: UA |11.63Mb, server: 37.19.199.224, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 馃嚭馃嚘UA_8252, server: 37.19.199.224, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: 🇺🇸 US_227, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: UA |11.46Mb, server: 37.19.199.224, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: "|55.22Mb", server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: IT_60, server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇸 US_6642, server: 212.102.44.98, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 Pool_馃嚭馃嚫US_186, server: 212.102.44.98, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happyflying epic
-      - 🇭🇰 HK_4450
-      - 🇺🇸 US_197
-      - 🇺🇸 US_112
+      - 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb
       - 🇭🇰 HK_4417
+      - Relay_ | 5.34Mb
       - UA | 5.12Mb
-      - UA |11.56Mb
-      - UA |11.44Mb
-      - UA |11.28Mb
+      - 🇺🇸 US_51
       - UA_7883
-      - UA |11.07Mb
-      - UA |11.72Mb
-      - UA |11.06Mb
-      - UA |11.48Mb
-      - UA |11.48Mb 2
+      - 馃嚭馃嚘UA_8201
       - UA |11.69Mb
-      - _979 |49.17Mb
-      - UA_7871
+      - UA |11.28Mb
+      - UA |11.48Mb
+      - happyflying epic
+      - UA |11.72Mb
       - UA_7907
-      - IT_58
+      - 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb
+      - UA |11.48Mb 2
+      - 🇺🇸 US_47
       - ZZ_12315
-      - 🇷🇺 RU_7318
-      - UA |11.63Mb
+      - 馃嚭馃嚘UA_8252
       - 🇺🇸 US_227
-      - UA |11.46Mb
-      - "|55.22Mb"
-      - IT_60
-      - 🇺🇸 US_6642
+      - 🇺🇸 Pool_馃嚭馃嚫US_186
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - happyflying epic
-      - 🇭🇰 HK_4450
-      - 🇺🇸 US_197
-      - 🇺🇸 US_112
+      - 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb
       - 🇭🇰 HK_4417
+      - Relay_ | 5.34Mb
       - UA | 5.12Mb
-      - UA |11.56Mb
-      - UA |11.44Mb
-      - UA |11.28Mb
+      - 🇺🇸 US_51
       - UA_7883
-      - UA |11.07Mb
-      - UA |11.72Mb
-      - UA |11.06Mb
-      - UA |11.48Mb
-      - UA |11.48Mb 2
+      - 馃嚭馃嚘UA_8201
       - UA |11.69Mb
-      - _979 |49.17Mb
-      - UA_7871
+      - UA |11.28Mb
+      - UA |11.48Mb
+      - happyflying epic
+      - UA |11.72Mb
       - UA_7907
-      - IT_58
+      - 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb
+      - UA |11.48Mb 2
+      - 🇺🇸 US_47
       - ZZ_12315
-      - 🇷🇺 RU_7318
-      - UA |11.63Mb
+      - 馃嚭馃嚘UA_8252
       - 🇺🇸 US_227
-      - UA |11.46Mb
-      - "|55.22Mb"
-      - IT_60
-      - 🇺🇸 US_6642
+      - 🇺🇸 Pool_馃嚭馃嚫US_186
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happyflying epic
-      - 🇭🇰 HK_4450
-      - 🇺🇸 US_197
-      - 🇺🇸 US_112
+      - 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb
       - 🇭🇰 HK_4417
+      - Relay_ | 5.34Mb
       - UA | 5.12Mb
-      - UA |11.56Mb
-      - UA |11.44Mb
-      - UA |11.28Mb
+      - 🇺🇸 US_51
       - UA_7883
-      - UA |11.07Mb
-      - UA |11.72Mb
-      - UA |11.06Mb
-      - UA |11.48Mb
-      - UA |11.48Mb 2
+      - 馃嚭馃嚘UA_8201
       - UA |11.69Mb
-      - _979 |49.17Mb
-      - UA_7871
+      - UA |11.28Mb
+      - UA |11.48Mb
+      - happyflying epic
+      - UA |11.72Mb
       - UA_7907
-      - IT_58
+      - 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb
+      - UA |11.48Mb 2
+      - 🇺🇸 US_47
       - ZZ_12315
-      - 🇷🇺 RU_7318
-      - UA |11.63Mb
+      - 馃嚭馃嚘UA_8252
       - 🇺🇸 US_227
-      - UA |11.46Mb
-      - "|55.22Mb"
-      - IT_60
-      - 🇺🇸 US_6642
+      - 🇺🇸 Pool_馃嚭馃嚫US_186
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -144,101 +124,86 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - happyflying epic
-      - 🇭🇰 HK_4450
-      - 🇺🇸 US_197
-      - 🇺🇸 US_112
+      - 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb
       - 🇭🇰 HK_4417
+      - Relay_ | 5.34Mb
       - UA | 5.12Mb
-      - UA |11.56Mb
-      - UA |11.44Mb
-      - UA |11.28Mb
+      - 🇺🇸 US_51
       - UA_7883
-      - UA |11.07Mb
-      - UA |11.72Mb
-      - UA |11.06Mb
-      - UA |11.48Mb
-      - UA |11.48Mb 2
+      - 馃嚭馃嚘UA_8201
       - UA |11.69Mb
-      - _979 |49.17Mb
-      - UA_7871
+      - UA |11.28Mb
+      - UA |11.48Mb
+      - happyflying epic
+      - UA |11.72Mb
       - UA_7907
-      - IT_58
+      - 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb
+      - UA |11.48Mb 2
+      - 🇺🇸 US_47
       - ZZ_12315
-      - 🇷🇺 RU_7318
-      - UA |11.63Mb
+      - 馃嚭馃嚘UA_8252
       - 🇺🇸 US_227
-      - UA |11.46Mb
-      - "|55.22Mb"
-      - IT_60
-      - 🇺🇸 US_6642
+      - 🇺🇸 Pool_馃嚭馃嚫US_186
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - happyflying epic
-      - 🇭🇰 HK_4450
-      - 🇺🇸 US_197
-      - 🇺🇸 US_112
+      - 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb
       - 🇭🇰 HK_4417
+      - Relay_ | 5.34Mb
       - UA | 5.12Mb
-      - UA |11.56Mb
-      - UA |11.44Mb
-      - UA |11.28Mb
+      - 🇺🇸 US_51
       - UA_7883
-      - UA |11.07Mb
-      - UA |11.72Mb
-      - UA |11.06Mb
-      - UA |11.48Mb
-      - UA |11.48Mb 2
+      - 馃嚭馃嚘UA_8201
       - UA |11.69Mb
-      - _979 |49.17Mb
-      - UA_7871
+      - UA |11.28Mb
+      - UA |11.48Mb
+      - happyflying epic
+      - UA |11.72Mb
       - UA_7907
-      - IT_58
+      - 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb
+      - UA |11.48Mb 2
+      - 🇺🇸 US_47
       - ZZ_12315
-      - 🇷🇺 RU_7318
-      - UA |11.63Mb
+      - 馃嚭馃嚘UA_8252
       - 🇺🇸 US_227
-      - UA |11.46Mb
-      - "|55.22Mb"
-      - IT_60
-      - 🇺🇸 US_6642
+      - 🇺🇸 Pool_馃嚭馃嚫US_186
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happyflying epic
-      - 🇭🇰 HK_4450
-      - 🇺🇸 US_197
-      - 🇺🇸 US_112
+      - 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb
       - 🇭🇰 HK_4417
+      - Relay_ | 5.34Mb
       - UA | 5.12Mb
-      - UA |11.56Mb
-      - UA |11.44Mb
-      - UA |11.28Mb
+      - 🇺🇸 US_51
       - UA_7883
-      - UA |11.07Mb
-      - UA |11.72Mb
-      - UA |11.06Mb
-      - UA |11.48Mb
-      - UA |11.48Mb 2
+      - 馃嚭馃嚘UA_8201
       - UA |11.69Mb
-      - _979 |49.17Mb
-      - UA_7871
+      - UA |11.28Mb
+      - UA |11.48Mb
+      - happyflying epic
+      - UA |11.72Mb
       - UA_7907
-      - IT_58
+      - 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb
+      - UA |11.48Mb 2
+      - 🇺🇸 US_47
       - ZZ_12315
-      - 🇷🇺 RU_7318
-      - UA |11.63Mb
+      - 馃嚭馃嚘UA_8252
       - 🇺🇸 US_227
-      - UA |11.46Mb
-      - "|55.22Mb"
-      - IT_60
-      - 🇺🇸 US_6642
+      - 🇺🇸 Pool_馃嚭馃嚫US_186
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -254,34 +219,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happyflying epic
-      - 🇭🇰 HK_4450
-      - 🇺🇸 US_197
-      - 🇺🇸 US_112
+      - 🇨🇳 Relay_馃嚚馃嚦CN |11.05Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |16.85Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |19.77Mb
       - 🇭🇰 HK_4417
+      - Relay_ | 5.34Mb
       - UA | 5.12Mb
-      - UA |11.56Mb
-      - UA |11.44Mb
-      - UA |11.28Mb
+      - 🇺🇸 US_51
       - UA_7883
-      - UA |11.07Mb
-      - UA |11.72Mb
-      - UA |11.06Mb
-      - UA |11.48Mb
-      - UA |11.48Mb 2
+      - 馃嚭馃嚘UA_8201
       - UA |11.69Mb
-      - _979 |49.17Mb
-      - UA_7871
+      - UA |11.28Mb
+      - UA |11.48Mb
+      - happyflying epic
+      - UA |11.72Mb
       - UA_7907
-      - IT_58
+      - 🇨🇳 Relay_馃嚚馃嚦CN | 8.81Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN |10.56Mb
+      - UA |11.48Mb 2
+      - 🇺🇸 US_47
       - ZZ_12315
-      - 🇷🇺 RU_7318
-      - UA |11.63Mb
+      - 馃嚭馃嚘UA_8252
       - 🇺🇸 US_227
-      - UA |11.46Mb
-      - "|55.22Mb"
-      - IT_60
-      - 🇺🇸 US_6642
+      - 🇺🇸 Pool_馃嚭馃嚫US_186
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
