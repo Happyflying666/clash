@@ -5,18 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk10-gray.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753, server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-3-dd4440.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759, server: shanghai-router2-hk4-5478.dukou.info, port: 8304, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: shanghai-router2-hk4-5478.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754, server: hk-cnrelay-13-138465.dukou.info, port: 8313, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk-cnrelay-13-138465.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_554, server: hkaz1.biteb.club, port: 54489, type: vmess, uuid: 68574701-5894-3fc5-bd26-8624daf0182c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
   - {name: Relay_ |33.27Mb, server: hk01.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: Relay_ |38.04Mb, server: sg12.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: Relay_ | 6.89Mb, server: nn9.boom.party, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 209922:RkdzUU, obfs-param: download.windowsupdate.com}
   - {name: Relay_ |13.74Mb, server: sg01.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb, server: pvcc01.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757, server: sg-cn-relay-8-14852.dukou.info, port: 9308, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-relay-8-14852.dukou.info, skip-cert-verify: false}
   - {name: Relay_ | 3.37Mb, server: sg09.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692, server: 162.14.11.142, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: t.me/Misaka_master, obfs-param: download.windowsupdate.com}
   - {name: Relay_ |12.24Mb, server: hkhe03.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
@@ -42,7 +35,6 @@ proxies:
   - {name: Pool_ |22.57Mb, server: 212.102.40.83, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: Pool_ |21.84Mb, server: 212.102.40.83, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: 🇺🇸 Pool_馃嚭馃嚫US_12642, server: 199.10.64.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752, server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-2-54bc52.dukou.info, skip-cert-verify: false}
   - {name: Pool_ |18.72Mb, server: 199.10.64.163, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: Pool_ |11.33Mb, server: 198.147.22.147, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: Pool_ |22.78Mb, server: 212.102.40.83, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
@@ -50,6 +42,7 @@ proxies:
   - {name: 🇺🇸 Pool_馃嚭馃嚫US_11289, server: 192.154.254.135, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: Pool_ |20.04Mb, server: 199.10.64.163, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇺🇸 馃嚭馃嚫US_12336, server: 199.10.64.163, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_554, server: hkaz1.biteb.club, port: 54489, type: vmess, uuid: 68574701-5894-3fc5-bd26-8624daf0182c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
   - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_552, server: hkaz1.biteb.club, port: 54411, type: vmess, uuid: 68574701-5894-3fc5-bd26-8624daf0182c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
 proxy-groups:
   - name: 🔰 节点选择
@@ -57,18 +50,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - Relay_ |33.27Mb
       - Relay_ |38.04Mb
       - Relay_ | 6.89Mb
       - Relay_ |13.74Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757
       - Relay_ | 3.37Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692
       - Relay_ |12.24Mb
@@ -94,7 +80,6 @@ proxy-groups:
       - Pool_ |22.57Mb
       - Pool_ |21.84Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
       - Pool_ |18.72Mb
       - Pool_ |11.33Mb
       - Pool_ |22.78Mb
@@ -102,24 +87,18 @@ proxy-groups:
       - 🇺🇸 Pool_馃嚭馃嚫US_11289
       - Pool_ |20.04Mb
       - 🇺🇸 馃嚭馃嚫US_12336
+      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - 🇭🇰 Relay_-馃嚟馃嚢HK_552
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - Relay_ |33.27Mb
       - Relay_ |38.04Mb
       - Relay_ | 6.89Mb
       - Relay_ |13.74Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757
       - Relay_ | 3.37Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692
       - Relay_ |12.24Mb
@@ -145,7 +124,6 @@ proxy-groups:
       - Pool_ |22.57Mb
       - Pool_ |21.84Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
       - Pool_ |18.72Mb
       - Pool_ |11.33Mb
       - Pool_ |22.78Mb
@@ -153,6 +131,7 @@ proxy-groups:
       - 🇺🇸 Pool_馃嚭馃嚫US_11289
       - Pool_ |20.04Mb
       - 🇺🇸 馃嚭馃嚫US_12336
+      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - 🇭🇰 Relay_-馃嚟馃嚢HK_552
   - name: 🌍 国外媒体
     type: select
@@ -160,18 +139,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - Relay_ |33.27Mb
       - Relay_ |38.04Mb
       - Relay_ | 6.89Mb
       - Relay_ |13.74Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757
       - Relay_ | 3.37Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692
       - Relay_ |12.24Mb
@@ -197,7 +169,6 @@ proxy-groups:
       - Pool_ |22.57Mb
       - Pool_ |21.84Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
       - Pool_ |18.72Mb
       - Pool_ |11.33Mb
       - Pool_ |22.78Mb
@@ -205,6 +176,7 @@ proxy-groups:
       - 🇺🇸 Pool_馃嚭馃嚫US_11289
       - Pool_ |20.04Mb
       - 🇺🇸 馃嚭馃嚫US_12336
+      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - 🇭🇰 Relay_-馃嚟馃嚢HK_552
   - name: 🌏 国内媒体
     type: select
@@ -216,18 +188,11 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - Relay_ |33.27Mb
       - Relay_ |38.04Mb
       - Relay_ | 6.89Mb
       - Relay_ |13.74Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757
       - Relay_ | 3.37Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692
       - Relay_ |12.24Mb
@@ -253,7 +218,6 @@ proxy-groups:
       - Pool_ |22.57Mb
       - Pool_ |21.84Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
       - Pool_ |18.72Mb
       - Pool_ |11.33Mb
       - Pool_ |22.78Mb
@@ -261,24 +225,18 @@ proxy-groups:
       - 🇺🇸 Pool_馃嚭馃嚫US_11289
       - Pool_ |20.04Mb
       - 🇺🇸 馃嚭馃嚫US_12336
+      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - 🇭🇰 Relay_-馃嚟馃嚢HK_552
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - Relay_ |33.27Mb
       - Relay_ |38.04Mb
       - Relay_ | 6.89Mb
       - Relay_ |13.74Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757
       - Relay_ | 3.37Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692
       - Relay_ |12.24Mb
@@ -304,7 +262,6 @@ proxy-groups:
       - Pool_ |22.57Mb
       - Pool_ |21.84Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
       - Pool_ |18.72Mb
       - Pool_ |11.33Mb
       - Pool_ |22.78Mb
@@ -312,6 +269,7 @@ proxy-groups:
       - 🇺🇸 Pool_馃嚭馃嚫US_11289
       - Pool_ |20.04Mb
       - 🇺🇸 馃嚭馃嚫US_12336
+      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - 🇭🇰 Relay_-馃嚟馃嚢HK_552
   - name: 🍎 苹果服务
     type: select
@@ -319,18 +277,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - Relay_ |33.27Mb
       - Relay_ |38.04Mb
       - Relay_ | 6.89Mb
       - Relay_ |13.74Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757
       - Relay_ | 3.37Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692
       - Relay_ |12.24Mb
@@ -356,7 +307,6 @@ proxy-groups:
       - Pool_ |22.57Mb
       - Pool_ |21.84Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
       - Pool_ |18.72Mb
       - Pool_ |11.33Mb
       - Pool_ |22.78Mb
@@ -364,6 +314,7 @@ proxy-groups:
       - 🇺🇸 Pool_馃嚭馃嚫US_11289
       - Pool_ |20.04Mb
       - 🇺🇸 馃嚭馃嚫US_12336
+      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - 🇭🇰 Relay_-馃嚟馃嚢HK_552
   - name: 🎯 全球直连
     type: select
@@ -380,18 +331,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - Relay_ |33.27Mb
       - Relay_ |38.04Mb
       - Relay_ | 6.89Mb
       - Relay_ |13.74Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1757
       - Relay_ | 3.37Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_13692
       - Relay_ |12.24Mb
@@ -417,7 +361,6 @@ proxy-groups:
       - Pool_ |22.57Mb
       - Pool_ |21.84Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
       - Pool_ |18.72Mb
       - Pool_ |11.33Mb
       - Pool_ |22.78Mb
@@ -425,6 +368,7 @@ proxy-groups:
       - 🇺🇸 Pool_馃嚭馃嚫US_11289
       - Pool_ |20.04Mb
       - 🇺🇸 馃嚭馃嚫US_12336
+      - 🇭🇰 Relay_-馃嚟馃嚢HK_554
       - 🇭🇰 Relay_-馃嚟馃嚢HK_552
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
