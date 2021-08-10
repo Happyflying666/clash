@@ -5,179 +5,283 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 馃嚭馃嚫US | 7.01Mb, server: hk01.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: 🇺🇸 馃嚭馃嚫US | 6.94Mb, server: hkt04.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405, server: hgc09.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412, server: 162.14.11.142, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: t.me/Misaka_master, obfs-param: download.windowsupdate.com}
+  - {name: 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416, server: sg09.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb, server: hkhe03.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409, server: 162.14.11.18, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: t.me/Misaka_master, obfs-param: download.windowsupdate.com}
-  - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb, server: pvcc01.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
-  - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb, server: sg11.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb, server: sg12.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
-  - {name: 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416, server: sg09.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
-  - {name: 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405, server: hgc09.cathayroute.com, port: 33099, type: ssr, cipher: rc4-md5, password: HdsrwE, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_13720, server: 209.58.128.48, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_14065, server: 212.102.44.83, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: "|82.34Mb", server: 65.49.193.120, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: 🇭🇰 HK_5037, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: false}
+  - {name: 🇺🇸 US_13053, server: 185.242.5.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 US_13051, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 US_10454, server: 89.187.187.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_13050, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇧🇪 BE_1938 |54.81Mb, server: 37.120.143.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇺🇸 馃嚭馃嚫US_12143, server: 209.58.128.48, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool_ |15.99Mb, server: 199.10.64.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 馃嚭馃嚫US_12336, server: 199.10.64.163, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇺🇸 馃嚭馃嚫US_11245, server: 212.102.40.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_ |22.57Mb, server: 212.102.40.83, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: Pool_ |23.24Mb, server: 212.102.40.83, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: Pool_ |23.28Mb, server: 212.102.40.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇧🇪 BE_1948 |60.83Mb, server: 37.120.143.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇧🇪 BE_1949 |60.05Mb, server: 37.120.143.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 US_13370, server: 199.10.64.163, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 US_11955, server: 199.10.64.163, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇧🇪 BE_1947 |60.66Mb, server: 37.120.143.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 US_13371, server: 104.244.208.213, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 US_13362 |162.60Mb, server: 212.102.40.83, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CA_2105 |76.43Mb, server: 107.181.177.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_9903 |103.91Mb, server: 212.102.40.83, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 US_12594, server: 212.102.40.78, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 US_12700, server: 199.10.64.163, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: 🇺🇸 Pool_馃嚭馃嚫US_12642, server: 199.10.64.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ |11.97Mb, server: 104.244.208.213, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇸 US_9905 |123.10Mb, server: 212.102.40.83, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: Pool_ |15.99Mb, server: 199.10.64.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: Pool_ |18.72Mb, server: 199.10.64.163, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: Pool_馃嚭馃嚘UA_9580, server: 37.19.220.199, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_馃嚭馃嚘UA_9582, server: 37.19.220.199, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ |22.78Mb, server: 212.102.40.83, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_9836, server: 198.147.22.147, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇺🇸 US_12018, server: 104.244.208.213, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇧🇪 BE_1950 |60.83Mb, server: 5.253.205.179, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: Pool_ |22.57Mb, server: 212.102.40.83, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: Pool_ |23.28Mb, server: 212.102.40.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 US_12598, server: 199.10.64.163, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇺🇸 US_12308, server: 89.187.173.201, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 US_9776 |162.05Mb, server: 198.147.22.167, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 US_12729, server: 23.105.160.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 Pool_馃嚭馃嚫US_14399, server: 23.105.160.134, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 🇺🇸 US_12597, server: 89.187.173.201, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 US_9784 |155.01Mb, server: 66.115.182.101, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Pool_ |20.71Mb, server: 199.10.64.163, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
   - {name: 🇺🇸 Pool_馃嚭馃嚫US_10848, server: 156.146.62.34, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: Pool_馃嚭馃嚘UA_9591, server: 37.19.220.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 US_9893 |109.07Mb, server: 212.102.40.83, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇺🇸 馃嚭馃嚫US_11245, server: 212.102.40.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Pool_馃嚭馃嚘UA_9582, server: 37.19.220.199, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 US_10457, server: 37.120.147.230, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 US_9916 |138.65Mb, server: 212.102.40.83, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇸 US_10344, server: 89.187.187.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_12737, server: 23.105.160.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Pool_馃嚭馃嚘UA_9583, server: 37.19.220.194, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 US_12126, server: 66.115.182.106, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: Pool_ |23.24Mb, server: 212.102.40.83, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
   - {name: Pool_馃嚭馃嚘UA_9588, server: 37.19.220.194, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇺🇸 Pool_馃嚭馃嚫US_11141, server: 23.105.160.134, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_14399, server: 23.105.160.134, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: Pool_馃嚭馃嚘UA_9583, server: 37.19.220.194, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ |20.71Mb, server: 199.10.64.163, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752, server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-2-54bc52.dukou.info, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759, server: shanghai-router2-hk4-5478.dukou.info, port: 8304, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: shanghai-router2-hk4-5478.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754, server: hk-cnrelay-13-138465.dukou.info, port: 8313, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk-cnrelay-13-138465.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753, server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-3-dd4440.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: f2b8d872-3462-11e9-96d3-020b85e0a428, sni: hk10-gray.dukou.info, skip-cert-verify: false}
+  - {name: 🇺🇸 US_10041 |59.90Mb, server: 212.102.40.83, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: Pool_馃嚭馃嚘UA_9591, server: 37.19.220.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 US_12216, server: 66.115.182.74, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇸 US_13041, server: 212.102.40.78, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇭🇰 HK_5027 |10.75Mb, server: anycast.live.hk-b.starseadata.com, port: 44817, type: vmess, uuid: 1fc889fc-cd4d-4925-97f7-ff182bd73ded, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live.hk-b.starseadata.com}}
+  - {name: 🇨🇳 CN_2290 |20.15Mb, server: gggz.quickairport.top, port: 21831, type: vmess, uuid: 943c710e-273c-4a48-b52c-8ab43049a08b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: gggz.quickairport.top}}
+  - {name: 🇭🇰 HK_5031 |10.49Mb, server: anycast.live.hk-b.starseadata.com, port: 41370, type: vmess, uuid: 1fc889fc-cd4d-4925-97f7-ff182bd73ded, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live.hk-b.starseadata.com}}
+  - {name: Relay_ |16.23Mb, server: azhk.pengui.tools, port: 80, type: vmess, uuid: 6b5e97d9-e3b0-4b12-8145-a052942803d5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /pazhk, ws-headers: {Host: azhk.pengui.tools}}
+  - {name: 🇨🇳 CN_2287 |11.56Mb, server: ngzyd-1.okex-tradebot.xyz, port: 30010, type: vmess, uuid: bc111515-d420-425b-9e19-7ef71e0fd1f9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: CA_2172 |58.24Mb, server: 104.245.96.158, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 馃嚭馃嚫US | 7.01Mb
       - 🇺🇸 馃嚭馃嚫US | 6.94Mb
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
-      - 🇺🇸 Pool_馃嚭馃嚫US_13720
-      - 🇺🇸 Pool_馃嚭馃嚫US_14065
+      - "|82.34Mb"
+      - 🇭🇰 HK_5037
+      - 🇺🇸 US_13053
+      - 🇺🇸 US_13051
+      - 🇺🇸 US_10454
+      - 🇺🇸 US_13050
+      - 🇧🇪 BE_1938 |54.81Mb
       - 🇺🇸 馃嚭馃嚫US_12143
-      - Pool_ |15.99Mb
-      - 🇺🇸 馃嚭馃嚫US_12336
-      - 🇺🇸 馃嚭馃嚫US_11245
-      - Pool_ |22.57Mb
-      - Pool_ |23.24Mb
-      - Pool_ |23.28Mb
+      - 🇧🇪 BE_1948 |60.83Mb
+      - 🇧🇪 BE_1949 |60.05Mb
+      - 🇺🇸 US_13370
+      - 🇺🇸 US_11955
+      - 🇧🇪 BE_1947 |60.66Mb
+      - 🇺🇸 US_13371
+      - 🇺🇸 US_13362 |162.60Mb
+      - CA_2105 |76.43Mb
+      - 🇺🇸 US_9903 |103.91Mb
+      - 🇺🇸 US_12594
+      - 🇺🇸 US_12700
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - Pool_ |11.97Mb
+      - 🇺🇸 US_9905 |123.10Mb
+      - Pool_ |15.99Mb
       - Pool_ |18.72Mb
-      - Pool_馃嚭馃嚘UA_9580
-      - Pool_馃嚭馃嚘UA_9582
-      - Pool_ |22.78Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9836
+      - 🇺🇸 US_12018
+      - 🇧🇪 BE_1950 |60.83Mb
+      - Pool_ |22.57Mb
+      - Pool_ |23.28Mb
+      - 🇺🇸 US_12598
+      - 🇺🇸 US_12308
+      - 🇺🇸 US_9776 |162.05Mb
+      - 🇺🇸 US_12729
+      - 🇺🇸 Pool_馃嚭馃嚫US_14399
+      - 🇺🇸 US_12597
+      - 🇺🇸 US_9784 |155.01Mb
+      - Pool_ |20.71Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_10848
-      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_9893 |109.07Mb
+      - 🇺🇸 馃嚭馃嚫US_11245
+      - Pool_馃嚭馃嚘UA_9582
+      - 🇺🇸 US_10457
+      - 🇺🇸 US_9916 |138.65Mb
+      - 🇺🇸 US_10344
+      - 🇺🇸 US_12737
+      - Pool_馃嚭馃嚘UA_9583
+      - 🇺🇸 US_12126
+      - Pool_ |23.24Mb
       - Pool_馃嚭馃嚘UA_9588
       - 🇺🇸 Pool_馃嚭馃嚫US_11141
-      - 🇺🇸 Pool_馃嚭馃嚫US_14399
-      - Pool_馃嚭馃嚘UA_9583
-      - Pool_ |20.71Mb
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
+      - 🇺🇸 US_10041 |59.90Mb
+      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_12216
+      - 🇺🇸 US_13041
+      - 🇭🇰 HK_5027 |10.75Mb
+      - 🇨🇳 CN_2290 |20.15Mb
+      - 🇭🇰 HK_5031 |10.49Mb
+      - Relay_ |16.23Mb
+      - 🇨🇳 CN_2287 |11.56Mb
+      - CA_2172 |58.24Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 馃嚭馃嚫US | 7.01Mb
       - 🇺🇸 馃嚭馃嚫US | 6.94Mb
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
-      - 🇺🇸 Pool_馃嚭馃嚫US_13720
-      - 🇺🇸 Pool_馃嚭馃嚫US_14065
+      - "|82.34Mb"
+      - 🇭🇰 HK_5037
+      - 🇺🇸 US_13053
+      - 🇺🇸 US_13051
+      - 🇺🇸 US_10454
+      - 🇺🇸 US_13050
+      - 🇧🇪 BE_1938 |54.81Mb
       - 🇺🇸 馃嚭馃嚫US_12143
-      - Pool_ |15.99Mb
-      - 🇺🇸 馃嚭馃嚫US_12336
-      - 🇺🇸 馃嚭馃嚫US_11245
-      - Pool_ |22.57Mb
-      - Pool_ |23.24Mb
-      - Pool_ |23.28Mb
+      - 🇧🇪 BE_1948 |60.83Mb
+      - 🇧🇪 BE_1949 |60.05Mb
+      - 🇺🇸 US_13370
+      - 🇺🇸 US_11955
+      - 🇧🇪 BE_1947 |60.66Mb
+      - 🇺🇸 US_13371
+      - 🇺🇸 US_13362 |162.60Mb
+      - CA_2105 |76.43Mb
+      - 🇺🇸 US_9903 |103.91Mb
+      - 🇺🇸 US_12594
+      - 🇺🇸 US_12700
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - Pool_ |11.97Mb
+      - 🇺🇸 US_9905 |123.10Mb
+      - Pool_ |15.99Mb
       - Pool_ |18.72Mb
-      - Pool_馃嚭馃嚘UA_9580
-      - Pool_馃嚭馃嚘UA_9582
-      - Pool_ |22.78Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9836
+      - 🇺🇸 US_12018
+      - 🇧🇪 BE_1950 |60.83Mb
+      - Pool_ |22.57Mb
+      - Pool_ |23.28Mb
+      - 🇺🇸 US_12598
+      - 🇺🇸 US_12308
+      - 🇺🇸 US_9776 |162.05Mb
+      - 🇺🇸 US_12729
+      - 🇺🇸 Pool_馃嚭馃嚫US_14399
+      - 🇺🇸 US_12597
+      - 🇺🇸 US_9784 |155.01Mb
+      - Pool_ |20.71Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_10848
-      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_9893 |109.07Mb
+      - 🇺🇸 馃嚭馃嚫US_11245
+      - Pool_馃嚭馃嚘UA_9582
+      - 🇺🇸 US_10457
+      - 🇺🇸 US_9916 |138.65Mb
+      - 🇺🇸 US_10344
+      - 🇺🇸 US_12737
+      - Pool_馃嚭馃嚘UA_9583
+      - 🇺🇸 US_12126
+      - Pool_ |23.24Mb
       - Pool_馃嚭馃嚘UA_9588
       - 🇺🇸 Pool_馃嚭馃嚫US_11141
-      - 🇺🇸 Pool_馃嚭馃嚫US_14399
-      - Pool_馃嚭馃嚘UA_9583
-      - Pool_ |20.71Mb
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
+      - 🇺🇸 US_10041 |59.90Mb
+      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_12216
+      - 🇺🇸 US_13041
+      - 🇭🇰 HK_5027 |10.75Mb
+      - 🇨🇳 CN_2290 |20.15Mb
+      - 🇭🇰 HK_5031 |10.49Mb
+      - Relay_ |16.23Mb
+      - 🇨🇳 CN_2287 |11.56Mb
+      - CA_2172 |58.24Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 馃嚭馃嚫US | 7.01Mb
       - 🇺🇸 馃嚭馃嚫US | 6.94Mb
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
-      - 🇺🇸 Pool_馃嚭馃嚫US_13720
-      - 🇺🇸 Pool_馃嚭馃嚫US_14065
+      - "|82.34Mb"
+      - 🇭🇰 HK_5037
+      - 🇺🇸 US_13053
+      - 🇺🇸 US_13051
+      - 🇺🇸 US_10454
+      - 🇺🇸 US_13050
+      - 🇧🇪 BE_1938 |54.81Mb
       - 🇺🇸 馃嚭馃嚫US_12143
-      - Pool_ |15.99Mb
-      - 🇺🇸 馃嚭馃嚫US_12336
-      - 🇺🇸 馃嚭馃嚫US_11245
-      - Pool_ |22.57Mb
-      - Pool_ |23.24Mb
-      - Pool_ |23.28Mb
+      - 🇧🇪 BE_1948 |60.83Mb
+      - 🇧🇪 BE_1949 |60.05Mb
+      - 🇺🇸 US_13370
+      - 🇺🇸 US_11955
+      - 🇧🇪 BE_1947 |60.66Mb
+      - 🇺🇸 US_13371
+      - 🇺🇸 US_13362 |162.60Mb
+      - CA_2105 |76.43Mb
+      - 🇺🇸 US_9903 |103.91Mb
+      - 🇺🇸 US_12594
+      - 🇺🇸 US_12700
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - Pool_ |11.97Mb
+      - 🇺🇸 US_9905 |123.10Mb
+      - Pool_ |15.99Mb
       - Pool_ |18.72Mb
-      - Pool_馃嚭馃嚘UA_9580
-      - Pool_馃嚭馃嚘UA_9582
-      - Pool_ |22.78Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9836
+      - 🇺🇸 US_12018
+      - 🇧🇪 BE_1950 |60.83Mb
+      - Pool_ |22.57Mb
+      - Pool_ |23.28Mb
+      - 🇺🇸 US_12598
+      - 🇺🇸 US_12308
+      - 🇺🇸 US_9776 |162.05Mb
+      - 🇺🇸 US_12729
+      - 🇺🇸 Pool_馃嚭馃嚫US_14399
+      - 🇺🇸 US_12597
+      - 🇺🇸 US_9784 |155.01Mb
+      - Pool_ |20.71Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_10848
-      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_9893 |109.07Mb
+      - 🇺🇸 馃嚭馃嚫US_11245
+      - Pool_馃嚭馃嚘UA_9582
+      - 🇺🇸 US_10457
+      - 🇺🇸 US_9916 |138.65Mb
+      - 🇺🇸 US_10344
+      - 🇺🇸 US_12737
+      - Pool_馃嚭馃嚘UA_9583
+      - 🇺🇸 US_12126
+      - Pool_ |23.24Mb
       - Pool_馃嚭馃嚘UA_9588
       - 🇺🇸 Pool_馃嚭馃嚫US_11141
-      - 🇺🇸 Pool_馃嚭馃嚫US_14399
-      - Pool_馃嚭馃嚘UA_9583
-      - Pool_ |20.71Mb
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
+      - 🇺🇸 US_10041 |59.90Mb
+      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_12216
+      - 🇺🇸 US_13041
+      - 🇭🇰 HK_5027 |10.75Mb
+      - 🇨🇳 CN_2290 |20.15Mb
+      - 🇭🇰 HK_5031 |10.49Mb
+      - Relay_ |16.23Mb
+      - 🇨🇳 CN_2287 |11.56Mb
+      - CA_2172 |58.24Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -188,134 +292,212 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 馃嚭馃嚫US | 7.01Mb
       - 🇺🇸 馃嚭馃嚫US | 6.94Mb
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
-      - 🇺🇸 Pool_馃嚭馃嚫US_13720
-      - 🇺🇸 Pool_馃嚭馃嚫US_14065
+      - "|82.34Mb"
+      - 🇭🇰 HK_5037
+      - 🇺🇸 US_13053
+      - 🇺🇸 US_13051
+      - 🇺🇸 US_10454
+      - 🇺🇸 US_13050
+      - 🇧🇪 BE_1938 |54.81Mb
       - 🇺🇸 馃嚭馃嚫US_12143
-      - Pool_ |15.99Mb
-      - 🇺🇸 馃嚭馃嚫US_12336
-      - 🇺🇸 馃嚭馃嚫US_11245
-      - Pool_ |22.57Mb
-      - Pool_ |23.24Mb
-      - Pool_ |23.28Mb
+      - 🇧🇪 BE_1948 |60.83Mb
+      - 🇧🇪 BE_1949 |60.05Mb
+      - 🇺🇸 US_13370
+      - 🇺🇸 US_11955
+      - 🇧🇪 BE_1947 |60.66Mb
+      - 🇺🇸 US_13371
+      - 🇺🇸 US_13362 |162.60Mb
+      - CA_2105 |76.43Mb
+      - 🇺🇸 US_9903 |103.91Mb
+      - 🇺🇸 US_12594
+      - 🇺🇸 US_12700
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - Pool_ |11.97Mb
+      - 🇺🇸 US_9905 |123.10Mb
+      - Pool_ |15.99Mb
       - Pool_ |18.72Mb
-      - Pool_馃嚭馃嚘UA_9580
-      - Pool_馃嚭馃嚘UA_9582
-      - Pool_ |22.78Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9836
+      - 🇺🇸 US_12018
+      - 🇧🇪 BE_1950 |60.83Mb
+      - Pool_ |22.57Mb
+      - Pool_ |23.28Mb
+      - 🇺🇸 US_12598
+      - 🇺🇸 US_12308
+      - 🇺🇸 US_9776 |162.05Mb
+      - 🇺🇸 US_12729
+      - 🇺🇸 Pool_馃嚭馃嚫US_14399
+      - 🇺🇸 US_12597
+      - 🇺🇸 US_9784 |155.01Mb
+      - Pool_ |20.71Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_10848
-      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_9893 |109.07Mb
+      - 🇺🇸 馃嚭馃嚫US_11245
+      - Pool_馃嚭馃嚘UA_9582
+      - 🇺🇸 US_10457
+      - 🇺🇸 US_9916 |138.65Mb
+      - 🇺🇸 US_10344
+      - 🇺🇸 US_12737
+      - Pool_馃嚭馃嚘UA_9583
+      - 🇺🇸 US_12126
+      - Pool_ |23.24Mb
       - Pool_馃嚭馃嚘UA_9588
       - 🇺🇸 Pool_馃嚭馃嚫US_11141
-      - 🇺🇸 Pool_馃嚭馃嚫US_14399
-      - Pool_馃嚭馃嚘UA_9583
-      - Pool_ |20.71Mb
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
+      - 🇺🇸 US_10041 |59.90Mb
+      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_12216
+      - 🇺🇸 US_13041
+      - 🇭🇰 HK_5027 |10.75Mb
+      - 🇨🇳 CN_2290 |20.15Mb
+      - 🇭🇰 HK_5031 |10.49Mb
+      - Relay_ |16.23Mb
+      - 🇨🇳 CN_2287 |11.56Mb
+      - CA_2172 |58.24Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 馃嚭馃嚫US | 7.01Mb
       - 🇺🇸 馃嚭馃嚫US | 6.94Mb
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
-      - 🇺🇸 Pool_馃嚭馃嚫US_13720
-      - 🇺🇸 Pool_馃嚭馃嚫US_14065
+      - "|82.34Mb"
+      - 🇭🇰 HK_5037
+      - 🇺🇸 US_13053
+      - 🇺🇸 US_13051
+      - 🇺🇸 US_10454
+      - 🇺🇸 US_13050
+      - 🇧🇪 BE_1938 |54.81Mb
       - 🇺🇸 馃嚭馃嚫US_12143
-      - Pool_ |15.99Mb
-      - 🇺🇸 馃嚭馃嚫US_12336
-      - 🇺🇸 馃嚭馃嚫US_11245
-      - Pool_ |22.57Mb
-      - Pool_ |23.24Mb
-      - Pool_ |23.28Mb
+      - 🇧🇪 BE_1948 |60.83Mb
+      - 🇧🇪 BE_1949 |60.05Mb
+      - 🇺🇸 US_13370
+      - 🇺🇸 US_11955
+      - 🇧🇪 BE_1947 |60.66Mb
+      - 🇺🇸 US_13371
+      - 🇺🇸 US_13362 |162.60Mb
+      - CA_2105 |76.43Mb
+      - 🇺🇸 US_9903 |103.91Mb
+      - 🇺🇸 US_12594
+      - 🇺🇸 US_12700
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - Pool_ |11.97Mb
+      - 🇺🇸 US_9905 |123.10Mb
+      - Pool_ |15.99Mb
       - Pool_ |18.72Mb
-      - Pool_馃嚭馃嚘UA_9580
-      - Pool_馃嚭馃嚘UA_9582
-      - Pool_ |22.78Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9836
+      - 🇺🇸 US_12018
+      - 🇧🇪 BE_1950 |60.83Mb
+      - Pool_ |22.57Mb
+      - Pool_ |23.28Mb
+      - 🇺🇸 US_12598
+      - 🇺🇸 US_12308
+      - 🇺🇸 US_9776 |162.05Mb
+      - 🇺🇸 US_12729
+      - 🇺🇸 Pool_馃嚭馃嚫US_14399
+      - 🇺🇸 US_12597
+      - 🇺🇸 US_9784 |155.01Mb
+      - Pool_ |20.71Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_10848
-      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_9893 |109.07Mb
+      - 🇺🇸 馃嚭馃嚫US_11245
+      - Pool_馃嚭馃嚘UA_9582
+      - 🇺🇸 US_10457
+      - 🇺🇸 US_9916 |138.65Mb
+      - 🇺🇸 US_10344
+      - 🇺🇸 US_12737
+      - Pool_馃嚭馃嚘UA_9583
+      - 🇺🇸 US_12126
+      - Pool_ |23.24Mb
       - Pool_馃嚭馃嚘UA_9588
       - 🇺🇸 Pool_馃嚭馃嚫US_11141
-      - 🇺🇸 Pool_馃嚭馃嚫US_14399
-      - Pool_馃嚭馃嚘UA_9583
-      - Pool_ |20.71Mb
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
+      - 🇺🇸 US_10041 |59.90Mb
+      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_12216
+      - 🇺🇸 US_13041
+      - 🇭🇰 HK_5027 |10.75Mb
+      - 🇨🇳 CN_2290 |20.15Mb
+      - 🇭🇰 HK_5031 |10.49Mb
+      - Relay_ |16.23Mb
+      - 🇨🇳 CN_2287 |11.56Mb
+      - CA_2172 |58.24Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 馃嚭馃嚫US | 7.01Mb
       - 🇺🇸 馃嚭馃嚫US | 6.94Mb
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
-      - 🇺🇸 Pool_馃嚭馃嚫US_13720
-      - 🇺🇸 Pool_馃嚭馃嚫US_14065
+      - "|82.34Mb"
+      - 🇭🇰 HK_5037
+      - 🇺🇸 US_13053
+      - 🇺🇸 US_13051
+      - 🇺🇸 US_10454
+      - 🇺🇸 US_13050
+      - 🇧🇪 BE_1938 |54.81Mb
       - 🇺🇸 馃嚭馃嚫US_12143
-      - Pool_ |15.99Mb
-      - 🇺🇸 馃嚭馃嚫US_12336
-      - 🇺🇸 馃嚭馃嚫US_11245
-      - Pool_ |22.57Mb
-      - Pool_ |23.24Mb
-      - Pool_ |23.28Mb
+      - 🇧🇪 BE_1948 |60.83Mb
+      - 🇧🇪 BE_1949 |60.05Mb
+      - 🇺🇸 US_13370
+      - 🇺🇸 US_11955
+      - 🇧🇪 BE_1947 |60.66Mb
+      - 🇺🇸 US_13371
+      - 🇺🇸 US_13362 |162.60Mb
+      - CA_2105 |76.43Mb
+      - 🇺🇸 US_9903 |103.91Mb
+      - 🇺🇸 US_12594
+      - 🇺🇸 US_12700
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - Pool_ |11.97Mb
+      - 🇺🇸 US_9905 |123.10Mb
+      - Pool_ |15.99Mb
       - Pool_ |18.72Mb
-      - Pool_馃嚭馃嚘UA_9580
-      - Pool_馃嚭馃嚘UA_9582
-      - Pool_ |22.78Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9836
+      - 🇺🇸 US_12018
+      - 🇧🇪 BE_1950 |60.83Mb
+      - Pool_ |22.57Mb
+      - Pool_ |23.28Mb
+      - 🇺🇸 US_12598
+      - 🇺🇸 US_12308
+      - 🇺🇸 US_9776 |162.05Mb
+      - 🇺🇸 US_12729
+      - 🇺🇸 Pool_馃嚭馃嚫US_14399
+      - 🇺🇸 US_12597
+      - 🇺🇸 US_9784 |155.01Mb
+      - Pool_ |20.71Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_10848
-      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_9893 |109.07Mb
+      - 🇺🇸 馃嚭馃嚫US_11245
+      - Pool_馃嚭馃嚘UA_9582
+      - 🇺🇸 US_10457
+      - 🇺🇸 US_9916 |138.65Mb
+      - 🇺🇸 US_10344
+      - 🇺🇸 US_12737
+      - Pool_馃嚭馃嚘UA_9583
+      - 🇺🇸 US_12126
+      - Pool_ |23.24Mb
       - Pool_馃嚭馃嚘UA_9588
       - 🇺🇸 Pool_馃嚭馃嚫US_11141
-      - 🇺🇸 Pool_馃嚭馃嚫US_14399
-      - Pool_馃嚭馃嚘UA_9583
-      - Pool_ |20.71Mb
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
+      - 🇺🇸 US_10041 |59.90Mb
+      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_12216
+      - 🇺🇸 US_13041
+      - 🇭🇰 HK_5027 |10.75Mb
+      - 🇨🇳 CN_2290 |20.15Mb
+      - 🇭🇰 HK_5031 |10.49Mb
+      - Relay_ |16.23Mb
+      - 🇨🇳 CN_2287 |11.56Mb
+      - CA_2172 |58.24Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -331,45 +513,71 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 馃嚭馃嚫US | 7.01Mb
       - 🇺🇸 馃嚭馃嚫US | 6.94Mb
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14412
+      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12721 | 1.44Mb
       - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14409
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12725 | 4.96Mb
-      - 🇭🇰 Relay_-馃嚟馃嚢HK_12719 | 7.32Mb
       - 🇭🇰 Relay_-馃嚟馃嚢HK_12726 | 7.96Mb
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14416
-      - 🇭🇰 Relay_馃嚭馃嚫US-馃嚟馃嚢HK_14405
-      - 🇺🇸 Pool_馃嚭馃嚫US_13720
-      - 🇺🇸 Pool_馃嚭馃嚫US_14065
+      - "|82.34Mb"
+      - 🇭🇰 HK_5037
+      - 🇺🇸 US_13053
+      - 🇺🇸 US_13051
+      - 🇺🇸 US_10454
+      - 🇺🇸 US_13050
+      - 🇧🇪 BE_1938 |54.81Mb
       - 🇺🇸 馃嚭馃嚫US_12143
-      - Pool_ |15.99Mb
-      - 🇺🇸 馃嚭馃嚫US_12336
-      - 🇺🇸 馃嚭馃嚫US_11245
-      - Pool_ |22.57Mb
-      - Pool_ |23.24Mb
-      - Pool_ |23.28Mb
+      - 🇧🇪 BE_1948 |60.83Mb
+      - 🇧🇪 BE_1949 |60.05Mb
+      - 🇺🇸 US_13370
+      - 🇺🇸 US_11955
+      - 🇧🇪 BE_1947 |60.66Mb
+      - 🇺🇸 US_13371
+      - 🇺🇸 US_13362 |162.60Mb
+      - CA_2105 |76.43Mb
+      - 🇺🇸 US_9903 |103.91Mb
+      - 🇺🇸 US_12594
+      - 🇺🇸 US_12700
       - 🇺🇸 Pool_馃嚭馃嚫US_12642
-      - Pool_ |11.97Mb
+      - 🇺🇸 US_9905 |123.10Mb
+      - Pool_ |15.99Mb
       - Pool_ |18.72Mb
-      - Pool_馃嚭馃嚘UA_9580
-      - Pool_馃嚭馃嚘UA_9582
-      - Pool_ |22.78Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9836
+      - 🇺🇸 US_12018
+      - 🇧🇪 BE_1950 |60.83Mb
+      - Pool_ |22.57Mb
+      - Pool_ |23.28Mb
+      - 🇺🇸 US_12598
+      - 🇺🇸 US_12308
+      - 🇺🇸 US_9776 |162.05Mb
+      - 🇺🇸 US_12729
+      - 🇺🇸 Pool_馃嚭馃嚫US_14399
+      - 🇺🇸 US_12597
+      - 🇺🇸 US_9784 |155.01Mb
+      - Pool_ |20.71Mb
       - 🇺🇸 Pool_馃嚭馃嚫US_10848
-      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_9893 |109.07Mb
+      - 🇺🇸 馃嚭馃嚫US_11245
+      - Pool_馃嚭馃嚘UA_9582
+      - 🇺🇸 US_10457
+      - 🇺🇸 US_9916 |138.65Mb
+      - 🇺🇸 US_10344
+      - 🇺🇸 US_12737
+      - Pool_馃嚭馃嚘UA_9583
+      - 🇺🇸 US_12126
+      - Pool_ |23.24Mb
       - Pool_馃嚭馃嚘UA_9588
       - 🇺🇸 Pool_馃嚭馃嚫US_11141
-      - 🇺🇸 Pool_馃嚭馃嚫US_14399
-      - Pool_馃嚭馃嚘UA_9583
-      - Pool_ |20.71Mb
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1752
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1759
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_1754
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1753
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_1758
-      - 🇺🇸 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_1756
+      - 🇺🇸 US_10041 |59.90Mb
+      - Pool_馃嚭馃嚘UA_9591
+      - 🇺🇸 US_12216
+      - 🇺🇸 US_13041
+      - 🇭🇰 HK_5027 |10.75Mb
+      - 🇨🇳 CN_2290 |20.15Mb
+      - 🇭🇰 HK_5031 |10.49Mb
+      - Relay_ |16.23Mb
+      - 🇨🇳 CN_2287 |11.56Mb
+      - CA_2172 |58.24Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
