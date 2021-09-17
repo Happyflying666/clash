@@ -5,613 +5,453 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 US_14362, server: 66.115.147.92, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 🇺🇲 US_14027, server: 66.115.147.92, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 🇺🇲 US_16182, server: 198.8.92.67, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 🇺🇲 US_16164, server: 198.8.92.67, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇺🇲 US_16303, server: 198.8.92.67, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 🇺🇲 US_16621, server: 198.8.92.67, port: 50768, type: ss, cipher: aes-256-gcm, password: MgWc3J8tAHsZrVqg4BaBHmGs}
-  - {name: 🇺🇲 US_16457, server: 198.8.92.67, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇲 US_14354, server: 199.58.187.67, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇲 US_14103, server: 66.115.147.92, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇲 US_16128, server: 198.8.92.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 US_14477, server: 66.115.147.92, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇲 US_14033, server: 66.115.147.92, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 US_14918, server: 66.115.147.77, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 🇺🇲 US_16108, server: 198.8.92.67, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇲 US_14136, server: 199.58.187.67, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇲 US_14401, server: 66.115.147.92, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇲 US_14605, server: 66.115.147.92, port: 50768, type: ss, cipher: aes-256-gcm, password: MgWc3J8tAHsZrVqg4BaBHmGs}
-  - {name: 🇺🇲 US_14069, server: 66.115.147.92, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 🇺🇲 US_16081, server: 198.8.92.67, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇲 US_16043, server: 198.8.92.67, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 US_14455, server: 199.58.187.67, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 US_14184, server: 66.115.147.92, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇲 US_15083, server: 66.115.147.77, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 🇺🇲 US_14135, server: 66.115.147.92, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: 🇺🇲 US_16344, server: 198.8.92.67, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 🇺🇲 US_16377, server: 198.8.92.67, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇲 US_16122, server: 198.8.92.67, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 🇺🇲 US_16040, server: 198.8.92.67, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇲 US_16159, server: 198.8.92.67, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 🇺🇲 US_14167, server: 199.58.187.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 US_16112, server: 198.8.92.67, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇲 US_18670, server: 199.58.187.67, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇲 US_16171, server: 198.8.92.67, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇲 US_16111, server: 198.8.92.67, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: "|30.40Mb", server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇲 US_15317, server: 66.115.147.77, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇺🇲 US_16420, server: 198.8.92.67, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇲 US_16086, server: 198.8.92.67, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇲 US_16608, server: 198.8.92.67, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 🇺🇲 US_16088, server: 198.8.92.67, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇲 US_16125, server: 198.8.92.67, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 🇺🇲 US_16109, server: 198.8.92.67, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇺🇲 US_16410, server: 198.8.92.67, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 🇺🇲 US_15064, server: 66.115.147.77, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇺🇲 US_14221, server: 66.115.147.92, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇺🇲 US_16567, server: 198.8.92.67, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇲 US_16119, server: 198.8.92.67, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇺🇲 US_16189, server: 198.8.92.67, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇺🇲 US_16610, server: 198.8.92.67, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇺🇲 US_16089, server: 198.8.92.67, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇺🇲 US_16093, server: 198.8.92.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 US_14140, server: 66.115.147.92, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇲 US_16595, server: 198.8.92.67, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇲 US_16600, server: 198.8.92.67, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇲 US_16956, server: 64.44.42.195, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇲 US_17078, server: 64.44.42.195, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇲 US_19279, server: 199.58.187.67, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇲 US_17286, server: 64.44.42.195, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: ZZ_20701, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 US_17804, server: 64.44.42.195, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇭🇰 HK_6066, server: 8.ssrj.xyz, port: 65108, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇷🇴 RO_11506, server: 79.110.54.133, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇷🇴 RO_10660, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 US_16356, server: 66.115.177.143, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇷🇴 RO_10734, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Pool_ |18.56Mb, server: 199.58.187.67, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇲 US_16342, server: 66.115.177.143, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: Pool_ |17.51Mb, server: 199.58.187.67, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: Pool_ |19.05Mb, server: 199.58.187.67, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇲 US_17228, server: 66.115.177.141, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 US_16377, server: 66.115.177.143, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇲 US_17866, server: 66.115.177.141, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: Pool_ |12.13Mb, server: 199.58.187.67, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇷🇴 RO_10913, server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇲 US_15877, server: 66.115.177.141, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇷🇴 RO_10737, server: 79.110.54.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇲 US_18830, server: 66.115.177.156, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇲 US_15957, server: 66.115.177.141, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇲 US_17091, server: 66.115.177.141, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇲 US_17871, server: 66.115.177.141, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇲 US_16343, server: 66.115.177.143, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇺🇲 US_17862, server: 66.115.177.141, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇲 US_17349, server: 66.115.177.156, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇺🇲 US_18548, server: 66.115.177.156, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇲 US_16225, server: 66.115.177.143, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 RO_9899, server: 91.90.123.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇲 US_17630, server: 64.44.42.56, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: Pool_ |30.51Mb, server: 82.102.16.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "|10.21Mb", server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 US_16116, server: 198.8.92.67, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: "| 9.19Mb", server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 US_17112, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 US_14839, server: 66.115.147.77, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: "|10.79Mb", server: 64.44.42.195, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇲 US_14190, server: 66.115.147.92, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇲 US_16090, server: 198.8.92.67, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 🇺🇲 US_17154, server: 199.58.187.67, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇲 US_15497, server: 84.17.35.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇲 US_17655, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: NO_8956, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 US_19279, server: 199.58.187.67, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: ZZ_20701, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 US_18828, server: 66.115.177.156, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇲 US_17113, server: 66.115.177.156, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: PL_9126, server: 5.187.49.189, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: PL_9109, server: 5.187.49.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 US_16570, server: 66.115.177.141, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 US_18493, server: 66.115.177.156, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: IT_7253, server: 82.102.26.93, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇷🇴 RO_10263, server: 91.90.123.163, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: IT_7145, server: 37.120.207.5, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇲 US_18820, server: 66.115.177.156, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 US_17119, server: 66.115.177.156, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇷🇴 RO_9746, server: 91.90.123.163, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇲 US_18540, server: 66.115.177.156, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: Pool_ |16.73Mb, server: 199.58.187.67, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: "|10.41Mb", server: 64.44.42.195, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: IT_7655, server: 82.102.26.93, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇲 US_18518, server: 66.115.177.156, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 US_17278, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 US_17983, server: 64.44.42.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -634,77 +474,57 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 US_14362
-      - 🇺🇲 US_14027
-      - 🇺🇲 US_16182
-      - 🇺🇲 US_16164
-      - 🇺🇲 US_16303
-      - 🇺🇲 US_16621
-      - 🇺🇲 US_16457
-      - 🇺🇲 US_14354
-      - 🇺🇲 US_14103
-      - 🇺🇲 US_16128
-      - 🇺🇲 US_14477
-      - 🇺🇲 US_14033
-      - 🇺🇲 US_14918
-      - 🇺🇲 US_16108
-      - 🇺🇲 US_14136
-      - 🇺🇲 US_14401
-      - 🇺🇲 US_14605
-      - 🇺🇲 US_14069
-      - 🇺🇲 US_16081
-      - 🇺🇲 US_16043
-      - 🇺🇲 US_14455
-      - 🇺🇲 US_14184
-      - 🇺🇲 US_15083
-      - 🇺🇲 US_14135
-      - 🇺🇲 US_16344
+      - 🇭🇰 HK_6066
+      - 🇷🇴 RO_11506
+      - 🇷🇴 RO_10660
+      - 🇺🇲 US_16356
+      - 🇷🇴 RO_10734
+      - Pool_ |18.56Mb
+      - 🇺🇲 US_16342
+      - Pool_ |17.51Mb
+      - Pool_ |19.05Mb
+      - 🇺🇲 US_17228
       - 🇺🇲 US_16377
-      - 🇺🇲 US_16122
-      - 🇺🇲 US_16040
-      - 🇺🇲 US_16159
-      - 🇺🇲 US_14167
-      - 🇺🇲 US_16112
-      - 🇺🇲 US_18670
-      - 🇺🇲 US_16171
-      - 🇺🇲 US_16111
-      - "|30.40Mb"
-      - 🇺🇲 US_15317
-      - 🇺🇲 US_16420
-      - 🇺🇲 US_16086
-      - 🇺🇲 US_16608
-      - 🇺🇲 US_16088
-      - 🇺🇲 US_16125
-      - 🇺🇲 US_16109
-      - 🇺🇲 US_16410
-      - 🇺🇲 US_15064
-      - 🇺🇲 US_14221
-      - 🇺🇲 US_16567
-      - 🇺🇲 US_16119
-      - 🇺🇲 US_16189
-      - 🇺🇲 US_16610
-      - 🇺🇲 US_16089
-      - 🇺🇲 US_16093
-      - 🇺🇲 US_14140
-      - 🇺🇲 US_16595
-      - 🇺🇲 US_16600
-      - 🇺🇲 US_16956
-      - 🇺🇲 US_17078
-      - 🇺🇲 US_19279
-      - 🇺🇲 US_17286
-      - ZZ_20701
-      - 🇺🇲 US_17804
+      - 🇺🇲 US_17866
+      - Pool_ |12.13Mb
+      - 🇷🇴 RO_10913
+      - 🇺🇲 US_15877
+      - 🇷🇴 RO_10737
+      - 🇺🇲 US_18830
+      - 🇺🇲 US_15957
+      - 🇺🇲 US_17091
+      - 🇺🇲 US_17871
+      - 🇺🇲 US_16343
+      - 🇺🇲 US_17862
+      - 🇺🇲 US_17349
+      - 🇺🇲 US_18548
+      - 🇺🇲 US_16225
+      - 🇷🇴 RO_9899
+      - 🇺🇲 US_17630
       - Pool_ |30.51Mb
-      - "|10.21Mb"
-      - 🇺🇲 US_16116
-      - "| 9.19Mb"
-      - 🇺🇲 US_17112
-      - 🇺🇲 US_14839
-      - "|10.79Mb"
-      - 🇺🇲 US_14190
-      - 🇺🇲 US_16090
-      - 🇺🇲 US_17154
-      - 🇺🇲 US_15497
+      - 🇺🇲 US_17655
+      - NO_8956
+      - 🇺🇲 US_19279
+      - ZZ_20701
+      - 🇺🇲 US_18828
+      - 🇺🇲 US_17113
+      - PL_9126
+      - PL_9109
+      - 🇺🇲 US_16570
+      - 🇺🇲 US_18493
+      - IT_7253
+      - 🇷🇴 RO_10263
+      - IT_7145
+      - 🇺🇲 US_18820
+      - 🇺🇲 US_17119
+      - 🇷🇴 RO_9746
+      - 🇺🇲 US_18540
+      - Pool_ |16.73Mb
+      - "|10.41Mb"
+      - IT_7655
+      - 🇺🇲 US_18518
+      - 🇺🇲 US_17278
+      - 🇺🇲 US_17983
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2419,6 +2239,7 @@ rules:
  - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
+ - IP-CIDR,108.177.97.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
