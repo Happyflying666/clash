@@ -5,245 +5,349 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ZZ_20841 |155.69Mb, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_2472 |54.14Mb, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_20835 |68.37Mb, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_17313 |211.29Mb, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_20, server: 198.57.27.233, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA_2158 |116.91Mb, server: 198.57.27.233, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_2211 |122.79Mb, server: 198.57.27.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA_2213 |97.89Mb, server: 198.57.27.233, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_17319 |164.96Mb, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_2475 |68.61Mb, server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 US_10912 | 3.97Mb, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_17326 |115.35Mb, server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: GB_4653 |64.95Mb, server: 193.118.60.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: GB_4726 |55.18Mb, server: 193.118.60.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_16766 |133.36Mb, server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_17295 |161.97Mb, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA_10, server: 198.57.27.247, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_17311 |167.68Mb, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_20865 |44.88Mb, server: 134.195.196.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_147, server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 US_10916 |19.60Mb, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: AT_01, server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: GB_37, server: 193.118.60.174, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 US_15971 | 2.14Mb, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 DE_5188, server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 馃嚝馃嚪 FR_1015, server: 45.89.174.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: "| 2.30Mb", server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 馃弫ZZ_200, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 2.49Mb", server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "| 2.45Mb", server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "| 2.47Mb", server: 134.195.196.36, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "| 2.30Mb 2", server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "| 2.21Mb", server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "| 2.47Mb 2", server: 134.195.196.44, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "| 1.96Mb", server: 134.195.196.199, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 2.35Mb", server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "| 2.14Mb", server: 134.195.196.44, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 3.88Mb", server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "| 2.36Mb", server: 134.195.196.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "| 2.39Mb", server: 134.195.196.44, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "| 2.36Mb 2", server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "| 2.36Mb 3", server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 2.18Mb", server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "| 2.24Mb", server: 134.195.196.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "| 1.96Mb 2", server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "| 2.02Mb", server: 134.195.196.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "| 2.45Mb 2", server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 2.38Mb", server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "| 2.28Mb", server: 134.195.196.199, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Pool_ | 4.18Mb, server: 2.58.242.43, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: "| 1.95Mb", server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "| 2.62Mb", server: 134.195.196.24, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "| 2.14Mb 2", server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "| 2.21Mb 2", server: 134.195.196.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 5.23Mb", server: 103.152.151.22, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: Pool_ | 2.45Mb, server: 89.187.187.76, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: "| 2.71Mb", server: 103.152.151.22, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: "| 2.37Mb", server: 134.195.196.36, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 2.37Mb 2", server: 134.195.196.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "| 2.24Mb 2", server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "| 2.18Mb 2", server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "| 2.55Mb", server: 103.152.151.22, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: "| 2.39Mb 2", server: 134.195.196.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -266,31 +370,44 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ZZ_20841 |155.69Mb
-      - CA_2472 |54.14Mb
-      - ZZ_20835 |68.37Mb
-      - ZZ_17313 |211.29Mb
-      - CA_20
-      - CA_2158 |116.91Mb
-      - CA_2211 |122.79Mb
-      - CA_2213 |97.89Mb
-      - ZZ_17319 |164.96Mb
-      - CA_2475 |68.61Mb
-      - 🇺🇲 US_10912 | 3.97Mb
-      - ZZ_17326 |115.35Mb
-      - GB_4653 |64.95Mb
-      - GB_4726 |55.18Mb
-      - ZZ_16766 |133.36Mb
-      - ZZ_17295 |161.97Mb
-      - CA_10
-      - ZZ_17311 |167.68Mb
-      - ZZ_20865 |44.88Mb
-      - ZZ_147
-      - 🇺🇲 US_10916 |19.60Mb
-      - AT_01
-      - GB_37
-      - 🇺🇲 US_15971 | 2.14Mb
-      - 🇩🇪 DE_5188
+      - 🇫🇷 馃嚝馃嚪 FR_1015
+      - "| 2.30Mb"
+      - 馃弫ZZ_200
+      - "| 2.49Mb"
+      - "| 2.45Mb"
+      - "| 2.47Mb"
+      - "| 2.30Mb 2"
+      - "| 2.21Mb"
+      - "| 2.47Mb 2"
+      - "| 1.96Mb"
+      - "| 2.35Mb"
+      - "| 2.14Mb"
+      - "| 3.88Mb"
+      - "| 2.36Mb"
+      - "| 2.39Mb"
+      - "| 2.36Mb 2"
+      - "| 2.36Mb 3"
+      - "| 2.18Mb"
+      - "| 2.24Mb"
+      - "| 1.96Mb 2"
+      - "| 2.02Mb"
+      - "| 2.45Mb 2"
+      - "| 2.38Mb"
+      - "| 2.28Mb"
+      - Pool_ | 4.18Mb
+      - "| 1.95Mb"
+      - "| 2.62Mb"
+      - "| 2.14Mb 2"
+      - "| 2.21Mb 2"
+      - "| 5.23Mb"
+      - Pool_ | 2.45Mb
+      - "| 2.71Mb"
+      - "| 2.37Mb"
+      - "| 2.37Mb 2"
+      - "| 2.24Mb 2"
+      - "| 2.18Mb 2"
+      - "| 2.55Mb"
+      - "| 2.39Mb 2"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
