@@ -5,349 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 SG_17 |20.52Mb, server: in03.node.beer, port: 8321, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
-  - {name: 🇭🇰 HK_28 | 3.55Mb, server: iepl01.node.beer, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
-  - {name: 🇺🇲 US_13259 | 1.74Mb, server: 156.146.62.37, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇲 US_13316, server: 156.146.62.37, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: Pool_ | 2.38Mb, server: 79.110.54.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 US_13267, server: 156.146.62.37, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 🇺🇲 US_13296, server: 156.146.62.37, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇺🇲 US_13324 | 2.07Mb, server: 156.146.62.37, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇲 US_13338 | 1.79Mb, server: 156.146.62.37, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇷🇴 Pool_RO_6988 | 2.39Mb, server: 79.110.54.133, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇲 US_13223 | 1.84Mb, server: 156.146.62.37, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: Pool_ | 2.32Mb, server: 79.110.54.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇲 US | 1.93Mb, server: 156.146.62.37, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 🇺🇲 US_13210, server: 156.146.62.37, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 Pool_RO_95, server: 79.110.54.133, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇲 US_13227 | 1.77Mb, server: 156.146.62.37, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇺🇲 US_13250 | 2.04Mb, server: 156.146.62.37, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇺🇲 US_13264, server: 156.146.62.37, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇲 US_13265, server: 156.146.62.37, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: 🇺🇲 US_13331, server: 156.146.62.37, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: Pool_ | 2.19Mb, server: 79.110.54.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ | 2.06Mb, server: 79.110.54.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 US_13258 | 2.11Mb, server: 156.146.62.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇲 US_13314 | 2.40Mb, server: 156.146.62.37, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇺🇲 US_13356, server: 156.146.62.37, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: ZZ_13851 | 2.00Mb, server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 US_13320 | 1.81Mb, server: 156.146.62.37, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 🇷🇴 Pool_RO_94, server: 79.110.54.133, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇲 US_13368, server: 156.146.62.37, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: Pool_ | 2.48Mb, server: 79.110.54.133, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇲 US_13330, server: 156.146.62.37, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 🇧🇪 Pool_BE_13, server: 89.249.73.197, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: ZZ_13865 | 1.95Mb, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_13902 | 2.06Mb, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Pool_ | 2.28Mb, server: 79.110.54.133, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇲 US_13236 | 1.83Mb, server: 156.146.62.37, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇲 US_13339, server: 156.146.62.37, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 🇸🇬 SG_18 |18.18Mb, server: in04.node.beer, port: 8322, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 109143:KbDfCI, obfs-param: cda7e109143.microsoft.com}
+  - {name: "| 1.95Mb", server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 馃弫ZZ_229, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 馃弫ZZ_244, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "| 1.98Mb", server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "| 1.94Mb", server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 1.93Mb", server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "| 1.93Mb 2", server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Relay_ | 2.09Mb, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -370,44 +130,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 SG_17 |20.52Mb
-      - 🇭🇰 HK_28 | 3.55Mb
-      - 🇺🇲 US_13259 | 1.74Mb
-      - 🇺🇲 US_13316
-      - Pool_ | 2.38Mb
-      - 🇺🇲 US_13267
-      - 🇺🇲 US_13296
-      - 🇺🇲 US_13324 | 2.07Mb
-      - 🇺🇲 US_13338 | 1.79Mb
-      - 🇷🇴 Pool_RO_6988 | 2.39Mb
-      - 🇺🇲 US_13223 | 1.84Mb
-      - Pool_ | 2.32Mb
-      - 🇺🇲 US | 1.93Mb
-      - 🇺🇲 US_13210
-      - 🇷🇴 Pool_RO_95
-      - 🇺🇲 US_13227 | 1.77Mb
-      - 🇺🇲 US_13250 | 2.04Mb
-      - 🇺🇲 US_13264
-      - 🇺🇲 US_13265
-      - 🇺🇲 US_13331
-      - Pool_ | 2.19Mb
-      - Pool_ | 2.06Mb
-      - 🇺🇲 US_13258 | 2.11Mb
-      - 🇺🇲 US_13314 | 2.40Mb
-      - 🇺🇲 US_13356
-      - ZZ_13851 | 2.00Mb
-      - 🇺🇲 US_13320 | 1.81Mb
-      - 🇷🇴 Pool_RO_94
-      - 🇺🇲 US_13368
-      - Pool_ | 2.48Mb
-      - 🇺🇲 US_13330
-      - 🇧🇪 Pool_BE_13
-      - ZZ_13865 | 1.95Mb
-      - ZZ_13902 | 2.06Mb
-      - Pool_ | 2.28Mb
-      - 🇺🇲 US_13236 | 1.83Mb
-      - 🇺🇲 US_13339
-      - 🇸🇬 SG_18 |18.18Mb
+      - "| 1.95Mb"
+      - 馃弫ZZ_229
+      - 馃弫ZZ_244
+      - "| 1.98Mb"
+      - "| 1.94Mb"
+      - "| 1.93Mb"
+      - "| 1.93Mb 2"
+      - Relay_ | 2.09Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
